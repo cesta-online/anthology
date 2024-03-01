@@ -208,55 +208,6 @@ body {
   }
 }
 
-article {
-  margin-top: 3rem;
-  width: calc(100% - 300px);
-  overflow-y: auto; /* Add this line to make the article scrollable */
-  position: relative; /* Add this line to position the article relative to the main container */
-  right: 0; /* Add this line to position the article to the right */
-  margin-bottom: 300px;
-  padding-left: 10rem;
-  padding-right: 2rem;
-}
-
-author {
-  display: block;
-  margin-bottom: 1rem;
-  font-size: 1.2rem;
-  font-weight: 600;
-  color: #6c757d;
-  padding-bottom: 0.75rem;
-  border-bottom: 1px solid #ccc;
-}
-
-author:before {
-  content: "by ";
-}
-
-sub-article-title {
-  display: block;
-  font-size: 2.5rem;
-  font-weight: 700;
-  margin-top: 3rem;
-}
-
-article-title {
-  display: block;
-  font-size: 2.5rem;
-  font-weight: 600;
-  font-family: var(--serif-font);
-  color: var(--cardinal-red);
-}
-
-session {
-  display: block;
-  font-size: 1.4rem;
-}
-
-article h1 {
-  font-weight: 400;
-}
-
 /* Breadcrumb */
 
 .breadcrumb {
@@ -345,7 +296,7 @@ table-of-contents.sticky {
 project-details {
   display: block;
   border-radius: 0.25rem;
-  background-color: #f8f9fa;
+  background-color: #f0dfee;
   padding: 1rem;
   margin-bottom: 2rem;
   margin-top: 1rem;
@@ -390,4 +341,57 @@ project-details lead designation {
 
 project-details description-container description {
   font-size: 0.9rem;
+}
+
+article {
+  margin-top: 3rem;
+  width: calc(100% - 300px);
+  overflow-y: auto; /* Add this line to make the article scrollable */
+  position: relative; /* Add this line to position the article relative to the main container */
+  right: 0; /* Add this line to position the article to the right */
+  margin-bottom: 300px;
+  padding-left: 10rem;
+  padding-right: 2rem;
+}
+
+author {
+  display: block;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #6c757d;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid #ccc;
+}
+
+author:before {
+  content: "by ";
+}
+
+sub-article-title {
+  display: block;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-top: 3rem;
+}
+
+article-title {
+  display: block;
+  font-size: 2.5rem;
+  font-weight: 600;
+  font-family: var(--serif-font);
+  color: var(--cardinal-red);
+}
+
+session {
+  display: block;
+  font-size: 1.4rem;
+}
+
+article h1 {
+  font-weight: 400;
+}
+
+.figure {
+  margin-bottom: 1rem;
 }
