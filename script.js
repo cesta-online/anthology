@@ -202,7 +202,11 @@ function createBreadcrumb() {
   urlParts.forEach((part, index) => {
     currentPath += "/" + part;
     if (index < urlParts.length - 1) {
-      const branch = part.replace(/[^a-zA-Z0-9]/g, " ");
+      const branch =
+        part
+          .replace(/[^a-zA-Z0-9]/g, " ")
+          .charAt(0)
+          .toUpperCase() + part.replace(/[^a-zA-Z0-9]/g, " ").slice(1);
       breadcrumb += ` <span class="breadcrumb-separator">></span> <a href="${currentPath}" class="breadcrumb-link">${branch}</a>`;
     }
   });
