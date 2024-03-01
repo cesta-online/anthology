@@ -202,11 +202,10 @@ function createBreadcrumb() {
   urlParts.forEach((part, index) => {
     currentPath += "/" + part;
     if (index < urlParts.length - 1) {
-      const branch =
-        part
-          .replace(/[^a-zA-Z0-9]/g, " ")
-          .charAt(0)
-          .toUpperCase() + part.replace(/[^a-zA-Z0-9]/g, " ").slice(1);
+      const words = part.split(/[^a-zA-Z0-9]/g);
+      const branch = words
+        .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+        .join(" ");
       breadcrumb += ` <span class="breadcrumb-separator">></span> <a href="${currentPath}" class="breadcrumb-link">${branch}</a>`;
     }
   });
