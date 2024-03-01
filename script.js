@@ -116,7 +116,7 @@ function makeTOCSticky() {
 
 function insertHeaderElement() {
   const headerHTML = `
-    <header>
+    <header class="header">
       <div id="stanford-band">
         <a href="https://www.stanford.edu" target="_blank">Stanford University</a>
       </div>
@@ -136,7 +136,7 @@ function insertHeaderElement() {
 
 function insertFooterElement() {
   const footerHTML = `
-    <footer>
+    <footer class="footer">
       <div class="footer-container">
         <div class="footer-logo">
           <a href="https://www.stanford.edu">Stanford<br>University</a>
