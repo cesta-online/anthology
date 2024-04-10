@@ -4,3 +4,6 @@
 [submodule "2023-research-anthology/church-of-baghdad"]
 	path = 2023-research-anthology/church-of-baghdad
 	url = https://github.com/ddeepak95/church-of-baghdad
+[submodule "templates/quarto"]
+	path = templates/quarto
+	url = https://github.com/ddeepak95/anthology-template-quarto
