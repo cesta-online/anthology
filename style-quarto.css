@@ -229,14 +229,14 @@ body {
   margin-bottom: 0.5rem;
 }
 
-.project-member .name {
-  display: block;
-  font-size: 1.1rem;
-  font-weight: 700;
-}
-
+.project-member .name,
 .project-member .designation {
   display: block;
+  margin: 0px;
+}
+
+.project-member .name {
+  font-weight: 700;
 }
 
 .project-description-container .project-description {
