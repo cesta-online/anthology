@@ -5,7 +5,10 @@ document.addEventListener("DOMContentLoaded", (event) => {
   });
   insertFooterElement();
   createBreadcrumb();
+  route();
 });
+
+window.addEventListener("popstate", route);
 
 function insertTOCElement() {
   return new Promise((resolve, reject) => {
@@ -216,4 +219,40 @@ function createBreadcrumb() {
   breadcrumbElement.className = "breadcrumb";
   breadcrumbElement.innerHTML = breadcrumb;
   article.parentNode.insertBefore(breadcrumbElement, article);
+}
+
+// router.js
+
+function route() {
+  const path = window.location.pathname;
+  console.log("Route:", path);
+
+  // Check if the path is not the root/home page
+  if (path !== "/") {
+    // Construct the URL to the index.html file in the public folder for the given path
+    const publicUrl = `${path}/public/index.html`;
+
+    // Fetch and display the content from the public folder
+    fetch(publicUrl)
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error("Page not found");
+        }
+        return response.text();
+      })
+      .then((html) => {
+        document.body.innerHTML = html;
+      })
+      .catch((error) => {
+        console.error("Error loading the page:", error);
+        // Optionally, display a not found message or redirect to a 404 page
+        document.body.innerHTML = "<h1>Page not found</h1>";
+      });
+  } else {
+    // Logic for the home page
+    // For example, you might want to fetch and display a different content or simply do nothing
+    console.log("Home page");
+    // Optionally, reset the content of the body or display specific content for the home page
+    // document.body.innerHTML = '<h1>Welcome to the Home Page</h1>';
+  }
 }
