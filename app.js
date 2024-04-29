@@ -30,6 +30,16 @@ app.use((req, res, next) => {
   }
 });
 
+// fetching the site_libs for quarto
+app.use((req, res, next) => {
+  if (req.path.includes("/site_libs/")) {
+    const newPath = req.path.replace("/site_libs/", "/public/site_libs/");
+    res.redirect(newPath);
+  } else {
+    next();
+  }
+});
+
 // 404 middleware
 app.use((req, res) => {
   res.status(404).sendFile(path.join(__dirname, "src", "404", "index.html"));
