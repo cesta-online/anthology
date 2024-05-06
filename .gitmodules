@@ -1,0 +1,6 @@
+[submodule "assets/remote"]
+	path = assets/remote
+	url = https://github.com/cesta-online/anthology-assets
+[submodule "quarto-template"]
+	path = quarto-template
+	url = https://github.com/cesta-online/article-quarto-template-public
