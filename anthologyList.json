@@ -2,13 +2,13 @@
   {
     "title": "2023 Edition",
     "description": "This edition focuses on luctus metus ac libero commodo, nec pulvinar purus bibendum. Phasellus at ultricies ex. Proin sit amet accumsan lorem. Etiam ultrices sit amet nibh non blandit. Cras hendrerit sollicitudin odio, vel gravida quam placerat quis. Quisque maximus congue ipsum ut rutrum.",
-    "img": "/assets/imgs/covers/placeholder-image.jpg",
+    "img": "assets/imgs/covers/placeholder-image.jpg",
     "link": "/2023-anthology"
   },
   {
     "title": "2022 Edition",
     "description": "This edition focuses on luctus metus ac libero commodo, nec pulvinar purus bibendum. Phasellus at ultricies ex. Proin sit amet accumsan lorem. Etiam ultrices sit amet nibh non blandit. Cras hendrerit sollicitudin odio, vel gravida quam placerat quis. Quisque maximus congue ipsum ut rutrum.",
-    "img": "/assets/imgs/covers/placeholder-image.jpg",
+    "img": "assets/imgs/covers/placeholder-image.jpg",
     "link": "/2022-anthology"
   }
 ]
