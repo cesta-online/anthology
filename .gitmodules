@@ -1,6 +1,0 @@
-[submodule "src/assets"]
-	path = src/assets
-	url = https://github.com/cesta-online/anthology-assets
-[submodule "src/template/quarto"]
-	path = src/template/quarto
-	url = https://github.com/cesta-online/article-quarto-template
