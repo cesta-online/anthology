@@ -4,3 +4,6 @@
 [submodule "quarto-template"]
 	path = quarto-template
 	url = https://github.com/cesta-online/article-quarto-template-public
+[submodule "submit"]
+	path = submit
+	url = https://github.com/cesta-online/submission-guidelines-public
