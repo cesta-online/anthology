@@ -4,6 +4,7 @@
 
 1. Clone the repository
 2. Use Live Server vscode extension to run the project locally
+3. run at root > git submodule update --init
 
 ## File Architecture
 
@@ -13,6 +14,10 @@
     ```
     git submodule add <repository-url> {anthology-version}/{article-name}
     ```
+## Modifying core pages
+Anthology index.html can be edited directly.
+The Submit index.html is rendered from a qmd file.
+
 
 ## Adding a new article
 

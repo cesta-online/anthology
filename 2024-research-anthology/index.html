@@ -2,17 +2,21 @@
 <html>
 
 <head>
-  <title>2023 Research Anthology</title>
+  <title>2024 Research Anthology</title>
 </head>
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/cesta-online/anthology-assets/css/style.css">
 <script src="https://cdn.jsdelivr.net/gh/cesta-online/anthology-assets/js/script.js"></script>
-
+<script>
+  navigationListing('#listingContainer', './articleList.json');
+</script>
 <body>
 
   <main style="height: 600px; padding: 4rem 10rem;">
-    <h1>2023 Research Anthology</h1>
+    <h1>2024 Research Anthology</h1>
     <p>Welcome to the Research Anthology CESTA homepage. This is a collection of research articles from the Center for Spatial and Textual Analysis at Stanford University. The articles cover a wide range of topics, including literature, history, and digital humanities. We hope you enjoy reading them!</p>
-
+    <div style="margin-top: 80px;">
+      <div id="listingContainer"></div>
+    </div>
   </main>
 
 </body>
