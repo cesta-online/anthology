@@ -14,10 +14,15 @@
     ```
     git submodule add <repository-url> {anthology-version}/{article-name}
     ```
+
 ## Modifying core pages
+
 Anthology index.html can be edited directly.
 The Submit index.html is rendered from a qmd file.
 
+## Updating the core css and js assets
+
+Refer to the [Anthology Assets](https://github.com/cesta-online/anthology-assets) repository for more details.
 
 ## Adding a new article
 
