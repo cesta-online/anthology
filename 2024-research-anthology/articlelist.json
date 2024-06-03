@@ -1,8 +1,8 @@
 [
   {
     "title": "A Decade of CESTA Data",
-    "description": "This edition focuses on luctus metus ac libero commodo, nec pulvinar purus bibendum. Phasellus at ultricies ex. Proin sit amet accumsan lorem. Etiam ultrices sit amet nibh non blandit. Cras hendrerit sollicitudin odio, vel gravida quam placerat quis. Quisque maximus congue ipsum ut rutrum.",
-    "img": "assets/imgs/covers/placeholder-image.jpg",
+    "description": "This is project undertaken by the 2023-2024 Fellows cohort to explore data available as digital traces of CESTA. The sources are the events listing on the CESTA website, earlier events scraped from the Internet Archive's web archive of CESTA's online presence, and CESTA's newsletter archive from the Mailchimp application.",
+    "img": "assets/imgs/covers/CESTA_directors.jpeg",
     "link": "/anthology/2023-anthology"
   }
 
