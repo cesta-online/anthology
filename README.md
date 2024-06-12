@@ -1,10 +1,42 @@
 # CESTA Digital Anthology
 
+## Pre-requisites
+
+- [Node.js](https://nodejs.org/en)
+  > Node.js is not absolutely necessary but it is recommended to use it for the development environment. It is used to run the live server and replicate the GitHub Pages environment locally.
+
 ## Installation
 
 1. Clone the repository
-2. Use Live Server vscode extension to run the project locally
-3. run at root > git submodule update --init
+2. Initialize the sub-modules. Run at root
+
+```bash
+git submodule update --init --recursive
+git checkout main
+git submodule foreach 'git checkout main'
+```
+
+3. Install the node server dependencies
+
+```bash
+npm install
+```
+
+4. Start the dev environment
+
+```bash
+npm run dev
+```
+
+- (Not recommended) To run the project without Node.js, Use Live Server vscode extension to run the project locally
+
+## Development
+
+Everytime you need to start the development server, run the following command:
+
+```bash
+npm run dev
+```
 
 ## File Architecture
 
