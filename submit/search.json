@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Submission Guidelines",
+    "section": "",
+    "text": "This article explains the process for submitting an article to the CESTA Anthology."
+  },
+  {
+    "objectID": "index.html#step-1-write-the-article-and-have-pi-review-it",
+    "href": "index.html#step-1-write-the-article-and-have-pi-review-it",
+    "title": "Submission Guidelines",
+    "section": "Step 1: Write the article and have PI review it",
+    "text": "Step 1: Write the article and have PI review it\n  The most important part of your research article is what you write. So, go ahead and write it using a platform that will make it easy to share with the PI. (We recommend writing it in Markdown, but you can always convert it later.)\n  Share it with the project PI for an initial review. You will need a written approval before moving to step 2."
+  },
+  {
+    "objectID": "index.html#step-2-request-a-repository",
+    "href": "index.html#step-2-request-a-repository",
+    "title": "Submission Guidelines",
+    "section": "Step 2: Request a Repository",
+    "text": "Step 2: Request a Repository\n  Create a Github accont (github.com). When you are ready to create an anthology page write an email to cesta-online@stanford.edu with the following information:\n  \n  \n  \n  \n  \n  \n  Email Info\n  \n  \n  \n  - Subject: Anthology Repository Request\n- Body:\n  - Your Github Username\n  - Title of the project\n  - PI approval (this can be a forwarded email from the PI)\n  \n  \n  In return, they will send you a link to a repository that will be dedicated to your anthology entry. That repository will include a template file for the anthology page with inline instructions."
+  },
+  {
+    "objectID": "index.html#step-3",
+    "href": "index.html#step-3",
+    "title": "Submission Guidelines",
+    "section": "Step 3:",
+    "text": "Step 3:\n  \n  Option 1 - Text and images only\n  If you are creating an article that is just text and images, we ask you to format the article using Markdown, which is a very simple markup language. You can find a guide to Markdown basics here. In your repository, using the edit function in Github, copy and paste your markdown file into the template. You will also need to drag and drop any image files you have into the images folder. (Go to Section 1.4 )\n  \n  \n  Option 2 - Make it interactive\n  \n  Complete the pre-requisites\n  \n  Install the following in your machine:\n  \n  Git\n  Python 3.6 or later\n  \n  \n  \n  \n  \n  \n  Using Homebrew For Mac\n  \n  \n  \n  For Mac, use Homebrew to install both Git and Python if you don’t have them installed already.\n  \n  \n  Quarto (Latest Version)\n  VS Code (Latest Version)\n  \n  GitHub should be configured in VS Code to manage the repository easily\n  Quarto extension can be install in VS Code to preview and render the website\n  \n  \n  \n  \n  \n  Clone the repository locally\n  - **The repository name should be in the format `anthology-{project-name}-{quarter}-{year}`. For example, `anthology-know-systemic-racism-spring-2023`.**\n  \n  Keep the repository private.\n  The repository will contain a single template file.\n  Read through the template first and make note of the inline instructions.\n  \n  \n  \n  Set up a virtual environment on your local machine\n  \n  Using VS Code, clone the copied repository to your local machine\n  Open the cloned repository in VS Code\n  Open the Terminal in VS code (not the main terminal) and run the following commands\n  \n  Setup the virtual environment using python3 -m venv .venv or python -m venv .venv\n  Activate the virtual environment using source .venv/bin/activate (Mac & Linux) or .\\.venv\\Scripts\\Activate (Windows)\n  \n  Important Note: You must activate the virtual environment every time you close and reopen the vscode.\n  \n  Install the required packages using pip3 install -r requirements.txt or pip install -r requirements.txt\n  \n  \n  \n  \n  Build your project site\n  \n  Preview the template using quarto preview in the VS code terminal\n  Authoring the article is done in the index.qmd file and quarto renders it automatically into webfiles in the public folder.\n  Add content to the template following the guidelines. Any changes you make will appear immediately in a browser window via Quarto preview.\n  See Quarto documentation for details about adding interactive content to your site\n  \n  \n  \n  What happens when I close my VS Code?\n  When you open your VS code to work on your project again later, all you need to do is the following:\n  \n  Open your project directory in VS Code\n  Activate the virtual environment in the VS Code terminal using source .venv/bin/activate (Mac & Linux) or .\\.venv\\Scripts\\Activate (Windows)\n  Run quarto preview in the VS code terminal to preview the changes as you make edits to the index.qmd file\n  \n  \n  \n  Important Tips\n  \n  If you are adding a new Python library to the project, make sure to update the requirements.txt file\n  If a content is not getting rendered properly with the Quarto markdown syntax, often it can be fixed with adding line breaks before or after the syntax."
+  },
+  {
+    "objectID": "index.html#sec-step-4",
+    "href": "index.html#sec-step-4",
+    "title": "Submission Guidelines",
+    "section": "Step 4: Submitting the article for review",
+    "text": "Step 4: Submitting the article for review\n  Once your article is ready for submission, write an email to cesta-online@stanford.edu with the following information:\n  \n  \n  \n  \n  \n  \n  Email Info\n  \n  \n  \n  \n  Subject: Anthology Submission: {Project Name}\n  Body:\n  \n  The link to your repository\n  Your Github Username\n  \n  \n  \n  \n  The CESTA team will review your submission. If approved, it will be added to the anthology. If there are issues, they will be in touch to help you fix them."
+  }
+]
