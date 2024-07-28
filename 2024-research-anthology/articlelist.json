@@ -5,4 +5,10 @@
     "img": "/anthology/assets/imgs/covers/CESTA_directors.jpeg",
     "link": "decade-of-data-spring-2024"
   }
+  {
+    "title": "CESTA Undergraduate Data",
+    "description": "This is the redesign of the CESTA Undergraduate data visualization recreation .",
+    "img": "/anthology/assets/imgs/covers/CESTA_directors.jpeg",
+    "link": "cesta-undergraduate-data"
+  }
 ]

@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Anthology Article Template",
+    "section": "",
+    "text": "Project Member\n          \n          \n            Designation\n          \n          \n            ORCID\n          \n        \n            \n          \n            Dr. Jane Doe\n          \n          \n            Faculty Director of Department\n          \n          0000-0000-0000-0000\n        \n            \n          \n            John Doe\n          \n          \n            Intern - Summer, 2023\n          \n          0000-0000-0000-0000\n        \n          \n        \n        \n        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  },
+  {
+    "objectID": "index.html#authoring-features-of-quarto",
+    "href": "index.html#authoring-features-of-quarto",
+    "title": "Anthology Article Template",
+    "section": "Authoring features of Quarto",
+    "text": "Authoring features of Quarto\n  In this section, let’s see some of the authoring features of Quarto.\n  \n  Callouts\n  Quarto allows different types of callouts to emphasize the content.\n  \n  \n  \n  \n  \n  \n  Note\n  \n  \n  \n  Note that there are five types of callouts, including: note, warning, important, tip, and caution.\n  \n  \n  \n  \n  \n  \n  \n  \n  Tip with Title\n  \n  \n  \n  This is an example of a callout with a title.\n  \n  \n  \n  \n  \n  \n  \n  \n  Expand To Learn About Collapse\n  \n  \n  \n  \n  \n  This is an example of a ‘folded’ caution callout that can be expanded by the user. You can use collapse=\"true\" to collapse it by default or collapse=\"false\" to make a collapsible callout that is expanded by default.\n  \n  \n  \n  \n  \n  Figures\n  In Quarto, figures can be easily imported using the markdown syntax, given the image is stored in the codebase. You can see the example given below.\n  \n  \n  \n  This is an example image\n  \n  \n  Below is a full column image.\n  \n  \n  \n  \n  \n  Tables\n  In Quarto, tables can be easily created using the pipe table markdown syntax. You can see the example given below.\n  \n  Demonstration of pipe table syntax\n  \n  \n  Default\n  Left\n  Right\n  Center\n  \n  \n  \n  \n  12\n  12\n  12\n  12\n  \n  \n  123\n  123\n  123\n  123\n  \n  \n  1\n  1\n  1\n  1\n  \n  \n  \n  \n  \n  Diagrams\n  Quarto allows natively the authors to create diagrams using Mermaid and Graphviz. Check the official documentation for more details.\n  Below is an example of a Mermaid diagram.\n  \n  \n  \n  \n  \n  flowchart LR\n    A[Hard edge] --&gt; B(Round edge)\n    B --&gt; C{Decision}\n    C --&gt; D[Result one]\n    C --&gt; E[Result two]\n  \n  \n  \n  \n  \n  \n  \n  \n  Videos\n  In Quarto, videos can be embedded from both locally and remote sources such as YouTube and Vimeo.\n  \n  \n  \n  Appendices and Footnotes\n  Quarto allows the authors to create appendices and footnotes easily.\n  \n  Appendix\n  In Quarto, appendices can be created using the .appendix class. The appendix section is placed at the end of the document and is not included in the table of contents.\n  \n  \n  \n  Footnote\n  Here is a footnote reference,1 and another.2"
+  },
+  {
+    "objectID": "index.html#visualizations",
+    "href": "index.html#visualizations",
+    "title": "Anthology Article Template",
+    "section": "Visualizations",
+    "text": "Visualizations\n  Quarto allows the users to run Python and R code directly in the page and get their output. This means that cool and interactive visualizations generated using Python or R can be rendered directly in the page. Please ensure that the essential library dependencies are installed to render the visualizations. For example, the following visualization requires plotly library which is installed along with the requirements. Whenever you install a new library, don’t forget to add it to requirements.txt.\n  Whenever an interactive visualization is added, an equivalent static image alternative should also be added for the Anthology print version. Refer to the code below.\n  The content below will appear only in the html version.\n  \n  Interactive Plotly Chart\n  For a demonstration of a Plotly chart, see Figure 1.\n  \n  \n  \n  \n                                                  \n  \n  \n  Figure 1: Example Interactive Plotly Chart\n  \n  \n  \n  \n  The content below will appear only in the pdf output but not in the html version."
+  },
+  {
+    "objectID": "index.html#observable",
+    "href": "index.html#observable",
+    "title": "Anthology Article Template",
+    "section": "Observable",
+    "text": "Observable\n  Similar to Python and R code, Quarto is also capable of handling Observable. Please refer to the official documentation for more details."
+  },
+  {
+    "objectID": "index.html#footnotes",
+    "href": "index.html#footnotes",
+    "title": "Anthology Article Template",
+    "section": "Footnotes",
+    "text": "Footnotes\n  \n  \n  Here is the footnote.↩︎\n  Here’s one with multiple blocks.\n  Subsequent paragraphs are indented to show that they belong to the previous footnote.\n  The whole paragraph can be indented, or just the first line. In this way, multi-paragraph footnotes work like multi-paragraph list items.↩︎"
+  }
+]
