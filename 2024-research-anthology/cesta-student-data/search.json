@@ -1,23 +1,23 @@
 [
   {
+    "objectID": "anthology/docs/Hosting.html",
+    "href": "anthology/docs/Hosting.html",
+    "title": "Heroku For Hosting",
+    "section": "",
+    "text": "Heroku For Hosting\n\nCreate a new app and link it to the repository\nAdd the custom buildpack to the app for fetching the files from the Github sub-modules as well:\n\nUse heroku CLI in terminals to add the buildpack:\nUse heroku login to login to the heroku account\nCheck the current buildpacks using heroku buildpacks -a &lt;app-name&gt;\nAdd the custom buildpack for fetching submodules using heroku buildpacks:add https://github.com/dmathieu/heroku-buildpack-submodules -a &lt;app-name&gt;\nRedeploy the app"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Anthology Article Template",
+    "title": "CESTA Student Data",
     "section": "",
     "text": "Project Member\n          \n          \n            Designation\n          \n          \n            ORCID\n          \n        \n            \n          \n            Eyup Eren Yurek\n          \n          \n            Programs and Research Coordinator at CESTA\n          \n          \n        \n          \n        \n        \n        Eren has developed the project further from the previous center managers’ works, as well as staff and scholars associated with the Humanities + Design Lab at CESTA. This project wouldn’t be possible without the heavy contributions of Sera Wang, the Undergraduate Researcher for CESTA Design."
   },
   {
-    "objectID": "index.html#visualizations",
-    "href": "index.html#visualizations",
-    "title": "Anthology Article Template",
-    "section": "Visualizations",
-    "text": "Visualizations\n  Quarto allows the users to run Python and R code directly in the page and get their output. This means that cool and interactive visualizations generated using Python or R can be rendered directly in the page. Please ensure that the essential library dependencies are installed to render the visualizations. For example, the following visualization requires plotly library which is installed along with the requirements. Whenever you install a new library, don’t forget to add it to requirements.txt.\n  Whenever an interactive visualization is added, an equivalent static image alternative should also be added for the Anthology print version. Refer to the code below.\n  The content below will appear only in the html version.\n  \n  Interactive Plotly Chart\n  For a demonstration of a Plotly chart, see ?@fig-example.\n  \n  \n  \n   \n  \n  The content below will appear only in the pdf output but not in the html version."
-  },
-  {
-    "objectID": "index.html#observable",
-    "href": "index.html#observable",
-    "title": "Anthology Article Template",
-    "section": "Observable",
-    "text": "Observable\n  Similar to Python and R code, Quarto is also capable of handling Observable. Please refer to the official documentation for more details."
+    "objectID": "index.html#visualization",
+    "href": "index.html#visualization",
+    "title": "CESTA Student Data",
+    "section": "Visualization",
+    "text": "Visualization\n  \n  Interactive Plotly Chart\n  The visualization below is made in Flourish–a tool for data visualizations. it shows each Digital Humanities Research Fellow’s fellowship year and their department. Each line represents one fellow."
   }
 ]
