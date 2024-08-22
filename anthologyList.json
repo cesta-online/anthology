@@ -1,7 +1,13 @@
 [
   {
-    "title": "2024 Winter-Spring Edition",
-    "description": "This is the inaugural online edition of the CESTA anthology. As the Spring quarter comes to a close, we will have more articles submitted on this new platform.",
+    "title": "Example Articles",
+    "description": "These are example articles and pages for students and scholars to look at while developing their own work.",
+    "img": "/anthology/assets/imgs/covers/cesta-online2.png",
+    "link": "/anthology/example"
+  },
+  {
+    "title": "2024 Summer Edition",
+    "description": "This is the inaugural online edition of the CESTA anthology. As the Summer quarter comes to a close, we will have more articles submitted on this new platform.",
     "img": "/anthology/assets/imgs/covers/cesta-online2.png",
     "link": "/anthology/2024-research-anthology"
   }
