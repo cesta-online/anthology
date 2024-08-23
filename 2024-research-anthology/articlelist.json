@@ -1,4 +1,10 @@
 [
+  {{
+    "title": "Visible Bodies",
+    "description": "This is the anthology page for the Visible Bodies Project, lead by Professor Joel Cabrita and with Undergraduate Researchers, Amanda Cheng and Delaney Swinton.",
+    "img": "/anthology/assets/imgs/covers/Tourist-Map-of-Johannesburg-Amanda.png",
+    "link": "visible-bodies"
+  },
   {
     "title": "A Decade of CESTA Data",
     "description": "This is project undertaken by the 2023-2024 Fellows cohort to explore data available as digital traces of CESTA. The sources are the events listing on the CESTA website, earlier events scraped from the Internet Archive's web archive of CESTA's online presence, and CESTA's newsletter archive from the Mailchimp application.",
