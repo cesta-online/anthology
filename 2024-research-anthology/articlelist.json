@@ -34,5 +34,11 @@
     "description": "This is the anthology page for Ars Mercatoria, lead by Professor Helen Malko  and with Undergraduate Researcher, Joy Kim.",
     "img": "/anthology/assets/imgs/covers/panic-2.png",
     "link": "ars-mercatoria"
-  }
+  },
+    {
+    "title": "Considering Disabilities in Online Cultural Experiences",
+    "description": "This is the anthology page for the Considering Disabilities in Online Cultural Experiences Project, lead by Patricia Alessandrini and with Undergraduate Researcher, Chi Pham.",
+    "img": "/anthology/assets/imgs/covers/muse-it.png",
+    "link": "considering-disabilities"
+  },
 ]
