@@ -5,24 +5,6 @@
     "img": "/anthology/assets/imgs/covers/Tourist-Map-of-Johannesburg-Amanda.png",
     "link": "visible-bodies"
   },
-  {
-    "title": "A Decade of CESTA Data",
-    "description": "This is project undertaken by the 2023-2024 Fellows cohort to explore data available as digital traces of CESTA. The sources are the events listing on the CESTA website, earlier events scraped from the Internet Archive's web archive of CESTA's online presence, and CESTA's newsletter archive from the Mailchimp application.",
-    "img": "/anthology/assets/imgs/covers/CESTA_directors.jpeg",
-    "link": "decade-of-data-spring-2024"
-  },
-  {
-    "title": "CESTA Student Data",
-    "description": "This is the redesign of the CESTA Undergraduate data visualization recreation .",
-    "img": "/anthology/2024-research-anthology/cesta-student-data/data/imgs/cesta_undergraduate_data.png",
-    "link": "cesta-student-data"
-  },
-  {
-    "title": "Panic and Pandemic",
-    "description": "This is an example anthology webpage for a the Panic and Pandemic project lead by Laura Stokes.",
-    "img": "/anthology/assets/imgs/covers/panic-2.png",
-    "link": "panic-and-pandemic"
-  },
    {
     "title": "Senegal Liberations Project",
     "description": "This is the anthology page for Senegal Liberations Project, lead by Professor Richard Roberts and with Undergraduate Researchers, Daniel Patrick and Hazel Chen.",
