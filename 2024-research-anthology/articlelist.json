@@ -28,5 +28,17 @@
     "description": "This is the anthology page for the Geo-mapping African Studies at Stanford Project, lead by Robin Chapdelaine and Joel Cabrita, and with Undergraduate Researcher, Anu Tsogtbaatar.",
     "img": "/anthology/assets/imgs/covers/african-studies.png",
     "link": "geomapping-african-studies"
+  },
+  {    
+    "title": "Open Gulf",
+    "description": "This is the anthology page for the Open Gulf Project, lead by Nora Barakat, and with Undergraduate Researchers, Germaine Soliman and Khosiyat Oripova.",
+    "img": "/anthology/assets/imgs/covers/open-gulf.png",
+    "link": "open-gulf"
+  },
+  {    
+    "title": "Digital Ker",
+    "description": "This is the anthology page for the Digital Ker Project, lead by Elaine Treharne, and with Undergraduate Researcher, Charlotte Cao.",
+    "img": "/anthology/assets/imgs/covers/digital-ker.png",
+    "link": "digital-ker"
   }
 ]
