@@ -40,5 +40,11 @@
     "description": "This is the anthology page for the Digital Ker Project, lead by Elaine Treharne, and with Undergraduate Researcher, Charlotte Cao.",
     "img": "/anthology/assets/imgs/covers/oe-1.jpg",
     "link": "digital-ker"
+  },
+    {    
+    "title": "Syriac Verb Tutorial",
+    "description": "This is the anthology page for the Syriac Verb Tutorial Project, lead by Michael Penn, and with Undergraduate Researcher, Erick Angelo Ramirez.",
+    "img": "/anthology/assets/imgs/covers/syriac-1.jpg",
+    "link": "syriac-verb-tutorial"
   }
 ]
