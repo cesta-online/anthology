@@ -46,5 +46,11 @@
     "description": "This is the anthology page for the Syriac Verb Tutorial Project, lead by Michael Penn, and with Undergraduate Researcher, Erick Angelo Ramirez.",
     "img": "/anthology/assets/imgs/covers/syriac-1.jpg",
     "link": "syriac-verb-tutorial"
-  }
+  },
+    {    
+    "title": "Human Rights-Based Accountability Framework for Halting Government Hacking Abuses",
+    "description": "This is the anthology page for the Human Rights-Based Accountability Framework for Halting Government Hacking Abuses, lead by André Ramiro and Bridget Algee-Hewitt, and with Undergraduate Researcher, Ishani Mukherjee.",
+    "img": "/anthology/assets/imgs/covers/hmn-rghts.png",
+    "link": "human-rights-accountability"
+    }
 ]
