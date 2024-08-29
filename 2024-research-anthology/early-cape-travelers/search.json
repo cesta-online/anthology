@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Early Cape Travelers",
+    "section": "",
+    "text": "Project Member\n          \n          \n            Designation\n          \n          \n            ORCID\n          \n        \n            \n          \n            Grant Parker\n          \n          \n            Associate Professor of Classics and African and African American Studies\n          \n          0000-0000-0000-0000\n        \n            \n          \n            Sam Prieto Serrano\n          \n          \n            Intern, Summer 2024\n          \n          0000-0000-0000-0000\n        \n            \n          \n            Katherine Lu\n          \n          \n            Intern, Summer 2024\n          \n          0000-0000-0000-0000"
+  },
+  {
+    "objectID": "index.html#methods",
+    "href": "index.html#methods",
+    "title": "Early Cape Travelers",
+    "section": "Methods",
+    "text": "Methods\n  After experimentation with LLMs, open-source software, and web apps, I found an efficient combination of methods and tools to complete the transcription.\n  For Group A, I was able to write a Python script for Google Cloud Platform’s “Vertex Vision AI” API. In my script, I take each page as an image, crop it into regions using predetermined coordinates, pass the regions to the Vision AI processor, and I get text output in the same order as the regions. For Group B, which had layouts too complex to crop into regions systematically, I used the Transkribus transcription platform. Within Transkribus, I manually created ‘bounding boxes’ over every text region I deemed necessary, ran a Transkribus pre-trained LLM, and then edited or organized the text around the model’s errors.\n  \n  \n  \n  Figure 5. This flowchart illustrates the text processing pipeline followed in this project.\n  \n  \n  \n  \n  \n  Figure 6. Line graph visualizing the number of misspellings in each page processed with the custom spell checker script.\n  \n  \n  \n  \n  \n  Figure 7. Radial hierarchy graph visualizing the most common misspelled words in each part-of-speech. Provides insights into how the coherence of the text has been affected by the transcription process."
+  },
+  {
+    "objectID": "index.html#text-outputs",
+    "href": "index.html#text-outputs",
+    "title": "Early Cape Travelers",
+    "section": "Text Outputs",
+    "text": "Text Outputs\n  Finally, I moved into post-processing the extracted text. This consisted of using a handful of NLP open-source software to correct things small (like removing extra spaces between words) to large (like spell checking the corpus of 550k+ German words). For the spell checking, I created and fed my own dictionary of German words from 1500-1800 to PySpellChecker since all other spell checking tools seem to not handle the historical vocabulary.\n  \n  \n  \n  Figure 8. Sample view of a page within compiled Docx.\n  \n  \n  I was able to bring all text, images, and tables together into a Docx document that is readable, editable, and searchable for specific content depending on the research goals."
+  }
+]
