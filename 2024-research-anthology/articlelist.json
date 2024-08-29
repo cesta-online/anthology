@@ -64,5 +64,11 @@
     "description": "This is the anthology page for the Early Cape Travelers, lead by Grant Parker, and with Undergraduate Researcher, Katherine Lu and Sam Prieto Serrano.",
     "img": "/anthology/assets/imgs/covers/early-1.png",
     "link": "early-cape-travelers"
+  },
+   {    
+    "title": "Expanding English Language Arts",
+    "description": "This is the anthology page for the Expanding English Language Arts, lead by Sarah Levine, and with Undergraduate Researcher, Elanna Mak.",
+    "img": "/anthology/assets/imgs/covers/ELAlyticsimage1.png",
+    "link": "expanding-ela"
   }
 ]
