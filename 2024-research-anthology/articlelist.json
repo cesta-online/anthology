@@ -52,5 +52,17 @@
     "description": "This is the anthology page for the Human Rights-Based Accountability Framework for Halting Government Hacking Abuses, lead by André Ramiro and Bridget Algee-Hewitt, and with Undergraduate Researcher, Ishani Mukherjee.",
     "img": "/anthology/assets/imgs/covers/hmn-rghts.png",
     "link": "human-rights-accountability"
-    }
+  },
+    {    
+    "title": "Martin Luther King, Jr. Digitization Project",
+    "description": "This is the anthology page for the Martin Luther King, Jr. Digitization Project, lead by Lerone Martin, and with Undergraduate Researcher, Fiona Han.",
+    "img": "/anthology/assets/imgs/covers/king-1.jpg",
+    "link": "mlk-digital-project"
+  },
+   {    
+    "title": "Early Cape Travelers",
+    "description": "This is the anthology page for the Early Cape Travelers, lead by Grant Parker, and with Undergraduate Researcher, Katherine Lu and Sam Prieto Serrano.",
+    "img": "/anthology/assets/imgs/covers/early-1.jpg",
+    "link": "early-cape-travelers"
+  }
 ]
