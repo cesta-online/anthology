@@ -1,13 +1,13 @@
 [
   {
     "title": "Visible Bodies",
-    "description": "This is the anthology page for the Visible Bodies Project, lead by Professor Joel Cabrita and with Undergraduate Researchers, Amanda Cheng and Delaney Swinton.",
+    "description": "This is the anthology page for the Visible Bodies Project, lead by Joel Cabrita and with Undergraduate Researchers, Amanda Cheng and Delaney Swinton.",
     "img": "/anthology/assets/imgs/covers/Tourist-Map-of-Johannesburg-Amanda.png",
     "link": "visible-bodies"
   },
    {
     "title": "Senegal Liberations Project",
-    "description": "This is the anthology page for Senegal Liberations Project, lead by Professor Richard Roberts and with Undergraduate Researchers, Daniel Patrick and Hazel Chen.",
+    "description": "This is the anthology page for Senegal Liberations Project, lead by Richard Roberts and with Undergraduate Researchers, Daniel Patrick and Hazel Chen.",
     "img": "/anthology/assets/imgs/covers/panic-2.png",
     "link": "senegal-liberations-project"
   }, 
@@ -70,5 +70,11 @@
     "description": "This is the anthology page for the Expanding English Language Arts, lead by Sarah Levine, and with Undergraduate Researcher, Elanna Mak.",
     "img": "/anthology/assets/imgs/covers/ELAlyticsimage1.png",
     "link": "expanding-ela"
+  },
+  {
+    "title": "Oceanic Imagineries",
+    "description": "This is the anthology page for the Oceanic Imagineries Project, lead by Grant Parker and with Undergraduate Researchers, Sebastian Kane.",
+    "img": "/anthology/assets/imgs/covers/ocean.png",
+    "link": "oceanic-imagineries"
   }
 ]
