@@ -61,7 +61,7 @@
   },
    {    
     "title": "Early Cape Travelers",
-    "description": "This is the anthology page for the Early Cape Travelers, lead by Grant Parker, and with Undergraduate Researcher, Katherine Lu and Sam Prieto Serrano.",
+    "description": "This is the anthology page for the Early Cape Travelers, lead by Grant Parker, and with Undergraduate Researchers, Katherine Lu and Sam Prieto Serrano.",
     "img": "/anthology/assets/imgs/covers/early-1.png",
     "link": "early-cape-travelers"
   },
@@ -73,8 +73,14 @@
   },
   {
     "title": "Oceanic Imagineries",
-    "description": "This is the anthology page for the Oceanic Imagineries Project, lead by Grant Parker and with Undergraduate Researchers, Sebastian Kane.",
+    "description": "This is the anthology page for the Oceanic Imagineries Project, lead by Grant Parker and with Undergraduate Researcher, Sebastian Kane.",
     "img": "/anthology/assets/imgs/covers/ocean.png",
     "link": "oceanic-imagineries"
+  },
+     {    
+    "title": "Visualizing Ancient Aramiac Manuscripts",
+    "description": "This is the anthology page for the Visualizing Ancient Aramiac Manuscripts Project, lead by Michael Penn, and with Undergraduate Researcher, Stephanie Cho.",
+    "img": "/anthology/assets/imgs/covers/vaa2.png",
+    "link": "visualizing-ancient-aramiac"
   }
 ]
