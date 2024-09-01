@@ -6,6 +6,18 @@
     "link": "visible-bodies"
   },
    {
+    "title": "Women and Mobility",
+    "description": "This is the anthology page for the Women and Mobility Project, lead by Giovanna Ceserani and with Undergraduate Researcher, Myan Ngo.",
+    "img": "/anthology/assets/imgs/covers/womo.png",
+    "link": "women-and-mobility"
+  },
+  {
+    "title": "Modernist Archives Publishing Project",
+    "description": "This is the anthology page for the Modernist Archives Publishing Project, lead by Alice Staveley and with Undergraduate Researchers, Sophie Wu and Delaney Swinton.",
+    "img": "/anthology/assets/imgs/covers/mapp.png",
+    "link": "modernist-archives-publishing"
+  },
+   {
     "title": "Senegal Liberations Project",
     "description": "This is the anthology page for Senegal Liberations Project, lead by Richard Roberts and with Undergraduate Researchers, Daniel Patrick and Hazel Chen.",
     "img": "/anthology/assets/imgs/covers/panic-2.png",
