@@ -1,4 +1,4 @@
-[submodule "assets/anthology-assets"]
+[submodule "assets/remote"]
     path = assets/remote
     url = https://github.com/cesta-online/anthology-assets.git
 
