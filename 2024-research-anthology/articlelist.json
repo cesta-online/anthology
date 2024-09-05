@@ -1,29 +1,5 @@
 [
-  {
-    "title": "Visible Bodies",
-    "description": "This is the anthology page for the Visible Bodies Project, lead by Joel Cabrita and with Undergraduate Researchers, Amanda Cheng and Delaney Swinton.",
-    "img": "/anthology/assets/imgs/covers/Tourist-Map-of-Johannesburg-Amanda.png",
-    "link": "visible-bodies"
-  },
    {
-    "title": "Women and Mobility",
-    "description": "This is the anthology page for the Women and Mobility Project, lead by Giovanna Ceserani and with Undergraduate Researcher, Myan Ngo.",
-    "img": "/anthology/assets/imgs/covers/womo.png",
-    "link": "women-and-mobility"
-  },
-  {
-    "title": "Modernist Archives Publishing Project",
-    "description": "This is the anthology page for the Modernist Archives Publishing Project, lead by Alice Staveley and with Undergraduate Researchers, Sophie Wu and Delaney Swinton.",
-    "img": "/anthology/assets/imgs/covers/mapp.png",
-    "link": "modernist-archives-publishing"
-  },
-   {
-    "title": "Senegal Liberations Project",
-    "description": "This is the anthology page for Senegal Liberations Project, lead by Richard Roberts and with Undergraduate Researchers, Daniel Patrick and Hazel Chen.",
-    "img": "/anthology/assets/imgs/covers/frtrocr.jpg",
-    "link": "senegal-liberations-project"
-  }, 
-  {
     "title": "Ars Mercatoria",
     "description": "This is the anthology page for Ars Mercatoria, lead by Helana Miton and with Undergraduate Researcher, Joy Kim.",
     "img": "/anthology/assets/imgs/covers/ars-merc.jpg",
@@ -36,10 +12,58 @@
     "link": "considering-disabilities"
   },
   {    
+    "title": "Digital Ker",
+    "description": "This is the anthology page for the Digital Ker Project, lead by Elaine Treharne, and with Undergraduate Researcher, Charlotte Cao.",
+    "img": "/anthology/assets/imgs/covers/oe-1.jpg",
+    "link": "digital-ker"
+  },
+  {    
+    "title": "Early Cape Travelers",
+    "description": "This is the anthology page for the Early Cape Travelers, lead by Grant Parker, and with Undergraduate Researchers, Katherine Lu and Sam Prieto Serrano.",
+    "img": "/anthology/assets/imgs/covers/early-1.png",
+    "link": "early-cape-travelers"
+  },
+  {    
+    "title": "Expanding English Language Arts",
+    "description": "This is the anthology page for the Expanding English Language Arts, lead by Sarah Levine, and with Undergraduate Researcher, Elanna Mak.",
+    "img": "/anthology/assets/imgs/covers/ELAlyticsimage1.png",
+    "link": "expanding-ela"
+  },
+  {    
     "title": "Geo-mapping African Studies at Stanford",
     "description": "This is the anthology page for the Geo-mapping African Studies at Stanford Project, lead by Robin Chapdelaine and Joel Cabrita, and with Undergraduate Researcher, Anu Tsogtbaatar.",
     "img": "/anthology/assets/imgs/covers/african-studies.png",
     "link": "geomapping-african-studies"
+  },
+  {    
+    "title": "Human Rights-Based Accountability Framework for Halting Government Hacking Abuses",
+    "description": "This is the anthology page for the Human Rights-Based Accountability Framework for Halting Government Hacking Abuses, lead by André Ramiro and Bridget Algee-Hewitt, and with Undergraduate Researcher, Ishani Mukherjee.",
+    "img": "/anthology/assets/imgs/covers/hmn-rghts.png",
+    "link": "human-rights-accountability"
+  },
+  {    
+    "title": "Literary Lab Projects",
+    "description": "This is the anthology page for the Literary Lab Projects, lead by Mark Algee-Hewitt, and with Undergraduate Researcher, Alice Fang.",
+    "img": "/anthology/assets/imgs/covers/hmn-rghts.png",
+    "link": "lit-lab"
+  },
+  {    
+    "title": "Martin Luther King, Jr. Digitization Project",
+    "description": "This is the anthology page for the Martin Luther King, Jr. Digitization Project, lead by Lerone Martin, and with Undergraduate Researcher, Fiona Han.",
+    "img": "/anthology/assets/imgs/covers/king-1.jpg",
+    "link": "mlk-digital-project"
+  },
+  {
+    "title": "Modernist Archives Publishing Project",
+    "description": "This is the anthology page for the Modernist Archives Publishing Project, lead by Alice Staveley and with Undergraduate Researchers, Sophie Wu and Delaney Swinton.",
+    "img": "/anthology/assets/imgs/covers/mapp.png",
+    "link": "modernist-archives-publishing"
+  },
+  {
+    "title": "Oceanic Imagineries",
+    "description": "This is the anthology page for the Oceanic Imagineries Project, lead by Grant Parker and with Undergraduate Researcher, Sebastian Kane.",
+    "img": "/anthology/assets/imgs/covers/ocean.png",
+    "link": "oceanic-imagineries"
   },
   {    
     "title": "Open Gulf",
@@ -48,51 +72,57 @@
     "link": "open-gulf"
   },
   {    
-    "title": "Digital Ker",
-    "description": "This is the anthology page for the Digital Ker Project, lead by Elaine Treharne, and with Undergraduate Researcher, Charlotte Cao.",
-    "img": "/anthology/assets/imgs/covers/oe-1.jpg",
-    "link": "digital-ker"
+    "title": "Ottoman Fiscal Codex",
+    "description": "This is the anthology page for the Ottoman Fiscal Codex, lead by Ali Yaycioglu and Fatma Oncel, and with Undergraduate Researcher, Jordan Rothkowitz.",
+    "img": "/anthology/assets/imgs/covers/open-gulf.png",
+    "link": "ottoman-fiscal"
   },
-    {    
+  {
+    "title": "Quantifying Ancient Associations",
+    "description": "This is the anthology page for the Quantifying Ancient Associations Project, lead by Umit Ozturk and James Macksoud and with Undergraduate Researcher, Myan Ngo.",
+    "img": "/anthology/assets/imgs/covers/womo.png",
+    "link": "quantifying-ancient"
+  },
+  {    
+    "title": "Reimagining Royal Space",
+    "description": "This is the anthology page for the Reimaging Royal Space, lead by Patricia Blessing, and with Undergraduate Researcher, Tasmia Tabassum Arthi.",
+    "img": "/anthology/assets/imgs/covers/open-gulf.png",
+    "link": "reimagining-royal-space"
+  },
+  {
+    "title": "Senegal Liberations Project",
+    "description": "This is the anthology page for Senegal Liberations Project, lead by Richard Roberts and with Undergraduate Researchers, Daniel Patrick and Hazel Chen.",
+    "img": "/anthology/assets/imgs/covers/frtrocr.jpg",
+    "link": "senegal-liberations-project"
+  }, 
+  {    
+    "title": "Spatial Narratives Project",
+    "description": "This is the anthology page for the Spatial Narratives Project, lead by Zephyr Frank, and with Undergraduate Researcher, Max Vandervelden.",
+    "img": "/anthology/assets/imgs/covers/syriac-1.jpg",
+    "link": "spatial-narratives"
+  },
+  {    
     "title": "Syriac Verb Tutorial",
     "description": "This is the anthology page for the Syriac Verb Tutorial Project, lead by Michael Penn, and with Undergraduate Researcher, Erick Angelo Ramirez.",
     "img": "/anthology/assets/imgs/covers/syriac-1.jpg",
     "link": "syriac-verb-tutorial"
   },
-    {    
-    "title": "Human Rights-Based Accountability Framework for Halting Government Hacking Abuses",
-    "description": "This is the anthology page for the Human Rights-Based Accountability Framework for Halting Government Hacking Abuses, lead by André Ramiro and Bridget Algee-Hewitt, and with Undergraduate Researcher, Ishani Mukherjee.",
-    "img": "/anthology/assets/imgs/covers/hmn-rghts.png",
-    "link": "human-rights-accountability"
-  },
-    {    
-    "title": "Martin Luther King, Jr. Digitization Project",
-    "description": "This is the anthology page for the Martin Luther King, Jr. Digitization Project, lead by Lerone Martin, and with Undergraduate Researcher, Fiona Han.",
-    "img": "/anthology/assets/imgs/covers/king-1.jpg",
-    "link": "mlk-digital-project"
-  },
-   {    
-    "title": "Early Cape Travelers",
-    "description": "This is the anthology page for the Early Cape Travelers, lead by Grant Parker, and with Undergraduate Researchers, Katherine Lu and Sam Prieto Serrano.",
-    "img": "/anthology/assets/imgs/covers/early-1.png",
-    "link": "early-cape-travelers"
-  },
-   {    
-    "title": "Expanding English Language Arts",
-    "description": "This is the anthology page for the Expanding English Language Arts, lead by Sarah Levine, and with Undergraduate Researcher, Elanna Mak.",
-    "img": "/anthology/assets/imgs/covers/ELAlyticsimage1.png",
-    "link": "expanding-ela"
-  },
   {
-    "title": "Oceanic Imagineries",
-    "description": "This is the anthology page for the Oceanic Imagineries Project, lead by Grant Parker and with Undergraduate Researcher, Sebastian Kane.",
-    "img": "/anthology/assets/imgs/covers/ocean.png",
-    "link": "oceanic-imagineries"
+    "title": "Visible Bodies",
+    "description": "This is the anthology page for the Visible Bodies Project, lead by Joel Cabrita and with Undergraduate Researchers, Amanda Cheng and Delaney Swinton.",
+    "img": "/anthology/assets/imgs/covers/Tourist-Map-of-Johannesburg-Amanda.png",
+    "link": "visible-bodies"
   },
      {    
     "title": "Visualizing Ancient Aramiac Manuscripts",
     "description": "This is the anthology page for the Visualizing Ancient Aramiac Manuscripts Project, lead by Michael Penn, and with Undergraduate Researcher, Stephanie Cho.",
     "img": "/anthology/assets/imgs/covers/vaa2.png",
     "link": "visualizing-ancient-aramiac"
+  },
+  {
+    "title": "Women and Mobility",
+    "description": "This is the anthology page for the Women and Mobility Project, lead by Giovanna Ceserani and with Undergraduate Researcher, Myan Ngo.",
+    "img": "/anthology/assets/imgs/covers/womo.png",
+    "link": "women-and-mobility"
   }
 ]
