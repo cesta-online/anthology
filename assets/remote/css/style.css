@@ -90,7 +90,6 @@ body {
   border-radius: 5px;
   overflow: hidden;
   position: relative;
-  flex-shrink: 0;
 }
 
 .list-item-img-container img {
