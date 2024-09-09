@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap");
+
+:root {
+  --serif-font: "Source Serif 4", serif;
+  --sans-serif-font: "Source Sans 3", sans-serif;
+}
+
+/* Header */
+#title-block-header .session {
+  font-size: 1em;
+  font-family: var(--serif-font);
+  margin-bottom: 0px;
+}
+
+#title-block-header .title {
+  font-weight: 400;
+}
+
+.header-img-container img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Project Details */
+.project-details-container {
+  margin-bottom: 1rem;
+}
+
+.project-members-container {
+  font-size: 0.8em;
+  border-top: 1px solid #ccc;
+  padding-top: 1.5em;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 1.5em;
+}
+
+.author-contributions-container h4 {
+  font-size: 0.9em;
+}
+
+.author-contributions-container p {
+  font-size: 0.8em;
+  font-style: italic;
+}
+
+.project-members-container .row > * {
+  padding: 0px;
+}
+
+.project-members-container h4 {
+  font-size: 0.9em;
+}
+
+.project-member {
+  margin-bottom: 0.5rem;
+}
+
+.project-member .name,
+.project-member .designation {
+  display: block;
+  margin: 0px;
+}
+
+.project-member .name {
+  font-weight: 600;
+}
+
+.project-member .orcid {
+  text-decoration: none;
+  color: inherit;
+}
+
+.project-description-container {
+  margin: 1rem 0rem;
+}
+
+.project-description-container .project-description {
+  font-size: 0.8rem;
+}
+
+/* Body */
+
+.article-author p:before {
+  content: "by ";
+  font-weight: 400;
+}
+
+.article-author p {
+  margin-top: -10px;
+  font-weight: 600;
+}
+
+#quarto-document-content {
+  color: #585754;
+}
+
+#quarto-document-content section p {
+  font-family: var(--serif-font);
+  font-size: 0.9em;
+  line-height: 1.8em;
+}
+
+#quarto-document-content a {
+  color: #006cb8;
+  transition: color 0.2s ease-out, background-color 0.2s ease-out;
+}
+
+#quarto-document-content a:hover {
+  color: #2e2d29;
+}
