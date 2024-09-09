@@ -80,11 +80,12 @@ body {
 }
 
 .list-item-text-container {
+  width: 750px;
   padding-right: 1rem;
 }
 
 .list-item-img-container {
-  width: 1000px;
+  width: 750px;
   height: 150px;
   margin-bottom: 1rem;
   border-radius: 5px;
