@@ -80,23 +80,22 @@ body {
 }
 
 .list-item-text-container {
-  flex: 0 0 60%;
+  flex: 0 0 50%;
   padding-right: 1rem;
 }
 
 .list-item-img-container {
-  flex: 0 0 40%;
+  flex: 0 0 50%;
   height: 150px;
   margin-bottom: 1rem;
   border-radius: 5px;
   overflow: hidden;
-  position: relative;
 }
 
 .list-item-img-container img {
   height: 100%;
   width: 100%;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 /* Header */
