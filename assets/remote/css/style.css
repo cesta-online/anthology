@@ -77,6 +77,12 @@ body {
   border-bottom: 1px solid var(--black-20);
   border-radius: 5px;
   margin-bottom: 3rem;
+  transition: background-color 0.3s ease, padding-left 0.3s ease; /* Add transition for smooth effects */
+}
+
+.list-item-container:hover {
+  background-color: hsla(120, 100%, 75%, 0.3); /* Example color, adjust as needed */
+  padding-left: 20px; /* Shifts the item to the right on hover */
 }
 
 .list-item-text-container {
