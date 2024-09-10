@@ -81,7 +81,7 @@ body {
 }
 
 .list-item-container:hover {
-  background-color: linear-gradient(to right, rgba(102, 255, 178, 0.6), rgba(255, 204, 0, 0.6));  
+  background-color: linear-gradient(to right, rgba(102, 255, 178, 1), rgba(255, 204, 0, 1));  
   padding-right: 20px;
   padding-top: 5px;/* Shifts the item to the right on hover */
 }
