@@ -77,11 +77,11 @@ body {
   border-bottom: 1px solid var(--black-20);
   border-radius: 5px;
   margin-bottom: 3rem;
-  transition: background-color 0.3s ease, padding-left 0.3s ease; /* Add transition for smooth effects */
+  transition: background-color 0.3s ease, padding-right 0.3s ease, padding-top 0.3 ease; /* Add transition for smooth effects */
 }
 
 .list-item-container:hover {
-  background-color: linear-gradient(to right, rgba(102, 255, 178, 1), rgba(255, 204, 0, 1));  
+  background-color: hsla(350,100%,50%,0.2);  
   padding-right: 20px;
   padding-top: 5px;/* Shifts the item to the right on hover */
 }
