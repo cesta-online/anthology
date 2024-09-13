@@ -73,8 +73,6 @@ function setupDropdowns() {
     });
   });
 }
-  const body = document.querySelector("body");
-  body.insertAdjacentHTML("afterbegin", headerHTML);
 
   // Clone the menu items and append to mobile-menu
   const menuItems = document.querySelector("#menu ul").cloneNode(true);
