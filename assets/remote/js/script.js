@@ -62,7 +62,6 @@ function insertHeaderElement() {
   body.insertAdjacentHTML("afterbegin", headerHTML);
 
   setupDropdowns();
-    }
 
 function setupDropdowns() {
   const dropdowns = document.querySelectorAll(".dropdown");
