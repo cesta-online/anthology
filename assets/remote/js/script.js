@@ -19,7 +19,7 @@ function setupMobileMenuToggle() {
 }
 
 function insertHeaderElement() {
-  const headerHTML = 
+  const headerHTML = `
     <header class="header">
       <div id="stanford-band">
         <a href="https://www.stanford.edu" target="_blank">Stanford University</a>
@@ -45,7 +45,7 @@ function insertHeaderElement() {
       </nav>
       <div id="mobile-menu" class="hidden"></div>
     </header>
-  ;
+  ` ;
 
   const body = document.querySelector("body");
   body.insertAdjacentHTML("afterbegin", headerHTML);
