@@ -56,24 +56,6 @@ function insertHeaderElement() {
   mobileMenu.appendChild(menuItems);
 }
 
-function updateSessionToHyperlinkPreviousListingPage() {
-  const sessionHtmLElement = document.querySelector(
-    "#title-block-header .session"
-  );
-  const linkElement = document.createElement("a");
-  let currentPath = window.location.pathname;
-  let subpaths = currentPath.split("/");
-  if (subpaths[subpaths.length - 1] === "") {
-    subpaths.pop();
-  }
-  subpaths.pop();
-  let newPath = subpaths.join("/");
-  linkElement.href = newPath;
-  linkElement.textContent = sessionHtmLElement.textContent;
-  linkElement.className = "session";
-  sessionHtmLElement.parentNode.replaceChild(linkElement, sessionHtmLElement);
-}
-
 function insertFooterElement() {
   const footerHTML = `
     <footer class="footer">
