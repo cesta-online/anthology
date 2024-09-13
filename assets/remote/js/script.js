@@ -19,59 +19,36 @@ function setupMobileMenuToggle() {
 }
 
 function insertHeaderElement() {
-  const headerHTML = `
+  const headerHTML = 
     <header class="header">
       <div id="stanford-band">
         <a href="https://www.stanford.edu" target="_blank">Stanford University</a>
       </div>
       <div id="cesta-band">
-        <a href="https://cesta.stanford.edu" target="_blank">
-          <span id="cesta-logo-container">
-            <span id="stanford-type">Stanford</span>
-            <span id="cesta-expansion">Center for Spatial and Textual Analysis</span>
-          </span>
-        </a>
+        <a href="https://cesta.stanford.edu" target="_blank"><span id="cesta-logo-container"><span id="stanford-type">Stanford</span><span id="cesta-expansion">Center for Spatial and Textual Analysis </span></span></a>
       </div>
-      <nav class="header-menu">
-        <ul>
-          <li class="dropdown">
-            <a href="javascript:void(0)">About</a>
-          </li>
-          <li><a href="/background">Website Background</a></li>
-          <li><a href="/anthology">Anthology</a></li>
-          <li class="dropdown">
-            <a href="javascript:void(0)">Projects</a>
-            <div class="dropdown-content">
-              <a href="/projects/current">Current</a>
-              <a href="/projects/past">Past</a>
-            </div>
-          </li>
-          <li><a href="/team">Team</a></li>
-          <li><a href="/submit">Submit</a></li>
-        </ul>
+      <nav>
+        <div><a href="/anthology">CESTA Research Anthology</a></div>
+        <div>
+          <div id="menu">
+            <ul>
+              <li><a href="/anthology/submit">Submit</a></li>
+            </ul>
+          </div>
+          <div id="mobile-menu-btn">
+            <button>
+              <svg height="32px" id="Layer_1" style="enable-background:new 0 0 32 32;" version="1.1" viewBox="0 0 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M4,10h24c1.104,0,2-0.896,2-2s-0.896-2-2-2H4C2.896,6,2,6.896,2,8S2.896,10,4,10z M28,14H4c-1.104,0-2,0.896-2,2 s0.896,2,2,2h24c1.104,0,2-0.896,2-2S29.104,14,28,14z M28,22H4c-1.104,0-2,0.896-2,2s0.896,2,2,2h24c1.104,0,2-0.896,2-2 S29.104,22,28,22z"/></svg>
+            </button>
+          </div>
+          
+        </div>
       </nav>
-      <div id="mobile-menu-btn">
-        <button>
-          <svg height="32px" id="Layer_1" style="enable-background:new 0 0 32 32;" version="1.1" viewBox="0 0 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M4,10h24c1.104,0,2-0.896,2-2s-0.896-2-2-2H4C2.896,6,2,6.896,2,8S2.896,10,4,10z M28,14H4c-1.104,0-2,0.896-2,2 s0.896,2,2,2h24c1.104,0,2-0.896,2-2S29.104,14,28,14z M28,22H4c-1.104,0-2,0.896-2,2s0.896,2,2,2h24c1.104,0,2-0.896,2-2 S29.104,22,28,22z"/></svg>
-        </button>
-      </div>
+      <div id="mobile-menu" class="hidden"></div>
     </header>
-  `;
+  ;
 
   const body = document.querySelector("body");
   body.insertAdjacentHTML("afterbegin", headerHTML);
-
-  setupDropdowns();
-
-function setupDropdowns() {
-  const dropdowns = document.querySelectorAll(".dropdown");
-  dropdowns.forEach(dropdown => {
-    dropdown.addEventListener('click', function(event) {
-      this.classList.toggle('is-active');
-      event.stopPropagation();
-    });
-  });
-}
 
   // Clone the menu items and append to mobile-menu
   const menuItems = document.querySelector("#menu ul").cloneNode(true);
