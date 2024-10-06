@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Early Cape Travelers",
+    "section": "",
+    "text": "Project Member\n          \n          \n            Designation\n          \n          \n            ORCID\n          \n        \n            \n          \n            Grant Parker\n          \n          \n            Associate Professor of Classics and African and African American Studies\n          \n          \n        \n            \n          \n            Sam Prieto Serrano\n          \n          \n            Intern, Summer 2024"
+  },
+  {
+    "objectID": "index.html#book-layouts",
+    "href": "index.html#book-layouts",
+    "title": "Early Cape Travelers",
+    "section": "Book Layouts",
+    "text": "Book Layouts\n  Below are sample pages displaying three of the various page layouts found in the book. The first image shows text belonging to one of the chapters. Note that about 80% of the book has this text layout. The second image shows the ending of a chapter followed by the title and beginning of the next. Finally, the third image shows one of the 80 index pagess found at the end of the book.\n  \n  \n  \n  Figure 2. Layout of the entire Group A.\n  \n  \n  \n  \n  \n  Figure 3. Layout belonging to Group B.\n  \n  \n  \n  \n  \n  Figure 4. Layout belonging to Group B."
+  },
+  {
+    "objectID": "index.html#extraction-methods",
+    "href": "index.html#extraction-methods",
+    "title": "Early Cape Travelers",
+    "section": "Extraction Methods",
+    "text": "Extraction Methods\n  After experimentation with many large-laguage models (LLMs), open-source software, and web apps, I found an efficient combination of methods and tools to complete the transcription.\n  For Group A, I was able to write a Python script for Google Cloud Platform’s “Vertex Vision AI” API. In my script, I take each page as an image, crop it into regions using predetermined coordinates, pass the regions to the Vision AI processor, and I get text output in the same order as the regions. For Group B, which had layouts too complex to crop into regions systematically, I used the Transkribus transcription platform. Within Transkribus, I manually created ‘bounding boxes’ over every text region I deemed necessary, ran a Transkribus pre-trained LLM, and then edited or organized the text around the model’s errors.\n  \n  \n  \n  Figure 5. This flowchart illustrates the text processing pipeline followed in this project (from left to right)."
+  },
+  {
+    "objectID": "index.html#text-outputs",
+    "href": "index.html#text-outputs",
+    "title": "Early Cape Travelers",
+    "section": "Text Outputs",
+    "text": "Text Outputs\n  After weeks of text extraction, I moved to post-processing and correcting the exported files. This consisted of using a handful of NLP open-source software to correct things small (like removing or inserting spaces where needed) to large (like spell checking all 550k+ German words). I found that all spell checking tools available seemed to not handle the historical and domain-specific vocabulary of the book that well. This led me to create and feed my own dictionary of German words compiled fromm archival texts published between 1500 and 1800 into a custom spell checker program.\n  \n  \n  \n  Figure 6. Line graph visualizing the number of misspellings in each page processed with the custom spell checker script.\n  \n  \n  \n  \n  \n  Figure 7. Radial hierarchy graph visualizing the top 50 most commonly misspelled words by part-of-speech. Provides insights into how the coherence of the text has been affected by the transcription process.\n  \n  \n  I can make the assumption that the various spikes in misspellings are likely due to the topic covered in certain chapters. If the discussion in those pages includes domain-specific vocabulary (while covering Hottentoten-specific scenes, for instance), then it is possible words in those pages will be be scare or unseen elsewhere in contemporary German publishings, which is the data used to train the spell checker.\n  \n  \n  \n  Figure 8. Sample view of a page within the compiled Docx.\n  \n  \n  Ultimately, I was able to bring all text, images, and tables together into a Docx document that is readable, editable, and searchable for specific content depending on the research goals. Along the way, I also produced clean and corrected txt files for the book that are ready for future text processing or analysis methods."
+  }
+]
