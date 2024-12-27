@@ -1,0 +1,52 @@
+<header id="title-block-header">
+  $if(session)$<p class="session">$session$</p>$endif$
+  $if(title)$<h1 class="title">$title$</h1>$endif$
+  $if(subtitle)$
+  <p class="subtitle">$subtitle$</p>
+  $endif$
+  $if(project-description)$<div class="project-description-container">
+    <p class="project-description">$project-description$</p>
+  </div>
+  $endif$
+</header>
+<!-- $if(image)$
+<div class="header-img-container">
+  <img src="$image$" alt=" header image"></img>
+</div>
+$endif$ -->
+<div class="project-details-container">
+  $if(project-members)$
+  <div class="project-members-container">
+    <div class="d-sm-none d-block">
+      <h4>Project Members</h4>
+    </div>
+    <div class="row d-sm-flex d-none">
+      <div class="col-sm">
+        <p>Project Member</p>
+      </div>
+      <div class="col-sm">
+        <p>Designation</p>
+      </div>
+      <div class="col-sm">
+        <p class="orcid">ORCID</p>
+      </div>
+    </div>
+    $for(project-members)$
+    <div class="project-member row">
+      <div class="col-sm">
+        <p class="name">$project-members.name$</p>
+      </div>
+      <div class="col-sm">
+        <p class="designation">$project-members.designation$</p>
+      </div>
+      <div class="col-sm">$if(project-members.orcid)$<a href="https://orcid.org/$project-members.orcid$" target="_blank" class="orcid">$project-members.orcid$</a>$endif$</div>
+    </div>
+    $endfor$
+  </div>
+  $endif$
+  $if(author-contributions)$<div class="author-contributions-container">
+    <h4>Author Contributions</h4>
+    <p class="author-contributions">$author-contributions$</p>
+  </div>
+  $endif$
+</div>

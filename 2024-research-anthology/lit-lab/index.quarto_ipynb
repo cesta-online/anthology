@@ -1,0 +1,63 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "# do not edit starts\n",
+        "jupyter: python3\n",
+        "toc: true\n",
+        "execute: \n",
+        "  freeze: auto\n",
+        "  echo: false\n",
+        "format:\n",
+        "  html:\n",
+        "    code-fold: true\n",
+        "    toc-title: Contents\n",
+        "    template: template/template.html\n",
+        "    template-partials: \n",
+        "      - template/title-block.html\n",
+        "# do not edit ends\n",
+        "title: \"Literary Lab Projects\"\n",
+        "session: \"Summer 2024\"\n",
+        "image: \"data/imgs/placeholder.jpg\"\n",
+        "project-members: \n",
+        "  - name: Mark Algee-Hewitt\n",
+        "    designation: Associate Professor of English\n",
+        "  - name: Alice Fang\n",
+        "    designation: Intern - Summer, 2024\n",
+        "\n",
+        "project-description: \"The Stanford Lit Lab is an interdisciplinary digital humanities research collective housed in the department of English. They produce projects primarily in the fields of computational literary studies and text-mining, using a wide range of methods, including NLP, network analysis, annotation, and statistical modeling. At the Lab, all research is collaborative, even when the outcome ends up having a single author. they hold frequent group meetings to evaluate the progress of the experiments, the status of existing hypotheses, and the promise (and problems...) of future developments. Their projects range from analyzing changes in literary theory through centuries as well as understanding how truth is communicated within contemporary climate-fiction novels.\"\n",
+        "\n",
+        "---\n",
+        "\n",
+        "\n",
+        "\n",
+        "# Investigating Literary Genre Makeup\n",
+        ":::{.article-author}\n",
+        "Alice Fang\n",
+        ":::\n",
+        "My work this summer for the Literary Lab, as well as for an extended project developed adjacent to my assigned work, was centered around the question of exploring how genre works in literary fiction. The Lab’s Gothic project, which I primarily worked on, is interested in dissecting the Gothic genre tradition and mapping other genre traditions which work together to influence and make up this body of work. These components include historical fiction, novels of manners, sensation novels, courtship novels, and national tales. Previously, the Lab had trained Large Language Models on large corpuses of texts belonging to these building-block genres.They then ran the models on a corpus of long 19th- century gothic novels to create figures showing percentages in each gothic text which resembles the other genre traditions. This summer, I was responsible for improving corpus quality in order to enhance model performance, with an emphasis on the historical fiction corpus. In addition to vetting mistakes in data labeling and annotation, I worked with a topic generation system that maps text inputs according to similarities in their “topic” or, by extension, their generic makeup, through which I was able to bring in new texts into existing corpuses. I also participated in the Climate Fiction and the Novel World Building projects, performing data gathering and correction work.\n",
+        "\n",
+        "![Fig 1. Sample topic model which plots large corpora of hundreds of novels according to topic make-up, distribution, and similarities.](public/data/imgs/Fang_1.jpg)\n",
+        "\n",
+        "Inspired by the Literary Lab’s work on the gothic genre, I also spent the summer developing an independent project aimed at mapping genre traditions in Thomas Pynchon’s postmodernist novel Against the Day. This is a novel which explores turn-of-the-century changes taking place in the decades in the late 19th and early 20th century, and consciously makes use of a variety of literary genres from the era for each distinct plotline. In preparation, I manually scanned a physical copy of the book and digitized it through Optical Character Recognition methods. Next, I plan to analyze the genre/linguistic patterns in Pynchon’s text with a series of tools, including basic statistical methods, word frequency finders, topic graphs, and fine-tuned LLM models from the Literary Lab’s projects. This will be an ongoing project which I hope to carry into the next year as potential material for a thesis.\n",
+        "\n",
+        "![Fig 1. Novel <i>Against The Day</i> after OCR digitization, genre categorization, and manual labelling.](public/data/imgs/Fang_2.jpg)\n",
+        "\n",
+        "![Fig 3. Heatmap showing most significant terms in each chapter/section and their relationship to each other.](public/data/imgs/Fang_3.png)"
+      ],
+      "id": "62f54640"
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "display_name": "Python 3",
+      "language": "python",
+      "name": "python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}
