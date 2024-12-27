@@ -11,6 +11,12 @@
     "img": "/anthology/assets/imgs/covers/muse-it.png",
     "link": "considering-disabilities"
   },
+ {    
+    "title": "Charting the Ottoman Empire",
+    "description": "This is the anthology page for the Charting the Ottoman Empire, lead by Ali Yaycioglu and Fatma Oncel, and with Undergraduate Researcher, Jordan Rothkowitz.",
+    "img": "/anthology/assets/imgs/covers/open-gulf.png",
+    "link": "charting-ottoman-empire"
+  },
   {    
     "title": "Digital Ker",
     "description": "This is the anthology page for the Digital Ker Project, lead by Elaine Treharne, and with Undergraduate Researcher, Charlotte Cao.",
@@ -61,21 +67,15 @@
   },
   {
     "title": "Oceanic Imagineries",
-    "description": "This is the anthology page for the Oceanic Imagineries Project, lead by Grant Parker and with Undergraduate Researcher, Sebastian Kane.",
+    "description": "This is the anthology page for the Oceanic Imaginaries Project, lead by Grant Parker and with Undergraduate Researcher, Sebastian Kane.",
     "img": "/anthology/assets/imgs/covers/ocean.png",
     "link": "oceanic-imagineries"
   },
   {    
     "title": "Open Gulf",
-    "description": "This is the anthology page for the Open Gulf Project, lead by Nora Barakat, and with Undergraduate Researchers, Germaine Soliman and Khosiyat Oripova.",
+    "description": "This is the anthology page for the OpenGulf Project, lead by Nora Barakat, and with Undergraduate Researchers, Germaine Soliman and Khosiyat Oripova.",
     "img": "/anthology/assets/imgs/covers/open-gulf.png",
     "link": "open-gulf"
-  },
-  {    
-    "title": "Ottoman Fiscal Codex",
-    "description": "This is the anthology page for the Ottoman Fiscal Codex, lead by Ali Yaycioglu and Fatma Oncel, and with Undergraduate Researcher, Jordan Rothkowitz.",
-    "img": "/anthology/assets/imgs/covers/open-gulf.png",
-    "link": "ottoman-fiscal"
   },
   {
     "title": "Quantifying Ancient Associations",
@@ -85,7 +85,7 @@
   },
   {    
     "title": "Reimagining Royal Space",
-    "description": "This is the anthology page for the Reimaging Royal Space, lead by Patricia Blessing, and with Undergraduate Researcher, Tasmia Tabassum Arthi.",
+    "description": "This is the anthology page for the Reimagining Royal Space, lead by Patricia Blessing, and with Undergraduate Researcher, Tasmia Tabassum Arthi.",
     "img": "/anthology/assets/imgs/covers/open-gulf.png",
     "link": "reimagining-royal-space"
   },
