@@ -50,7 +50,7 @@
   {    
     "title": "Literary Lab Projects",
     "description": "This is the anthology page for the Literary Lab Projects, lead by Mark Algee-Hewitt, and with Undergraduate Researcher, Alice Fang.",
-    "img": "/anthology/assets/imgs/covers/litlab.jpg",
+    "img": "/anthology/assets/imgs/covers/litlab.jpeg",
     "link": "lit-lab"
   },
   {    
@@ -80,19 +80,19 @@
    {    
     "title": "People's Data",
     "description": "This is the anthology page for the People's Data project, lead by Giovanna Ceserani and Nicole Coleman, and with Undergraduate Researcher, Jiaju Liu.",
-    "img": "/anthology/assets/imgs/covers/peopleimg.jpg",
+    "img": "/anthology/assets/imgs/covers/peopleimg.jpeg",
     "link": "people-data"
   },
   {
     "title": "Quantifying Ancient Associations",
     "description": "This is the anthology page for the Quantifying Ancient Associations Project, lead by Umit Ozturk and James Macksoud and with Undergraduate Researcher, Myan Ngo.",
-    "img": "/anthology/assets/imgs/covers/ancientq.jpg",
+    "img": "/anthology/assets/imgs/covers/ancientq.jpeg",
     "link": "quantifying-ancient"
   },
   {    
     "title": "Reimagining Royal Space",
     "description": "This is the anthology page for the Reimagining Royal Space, lead by Patricia Blessing, and with Undergraduate Researcher, Tasmia Tabassum Arthi.",
-    "img": "/anthology/assets/imgs/covers/tiles.jpeg",
+    "img": "/anthology/assets/imgs/covers/seljuk.jpg",
     "link": "reimagining-royal-space"
   },
   {
