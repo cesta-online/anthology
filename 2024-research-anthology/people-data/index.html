@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+  <meta charset="utf-8">
+  <meta name="generator" content="quarto-1.6.39">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+  <title>People’s Data</title>  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+      vertical-align: middle;
+    }
+  </style>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/cesta-online/anthology-assets@latest/css/style.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/cesta-online/anthology-assets@latest/css/style-quarto.css">
+  <script src="https://cdn.jsdelivr.net/gh/cesta-online/anthology-assets@latest/js/script.js"></script>
+  
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-79108a0fc1995748cbd19a5b0e3e3e7c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+    <script id="quarto-search-options" type="application/json">{
+      "location": "sidebar",
+      "copy-button": false,
+      "collapse-after": 3,
+      "panel-placement": "start",
+      "type": "textbox",
+      "limit": 50,
+      "keyboard-shortcut": [
+        "f",
+        "/",
+        "s"
+      ],
+      "show-item-context": false,
+      "language": {
+        "search-no-results-text": "No results",
+        "search-matching-documents-text": "matching documents",
+        "search-copy-link-title": "Copy link to search",
+        "search-hide-matches-text": "Hide additional matches",
+        "search-more-match-text": "more match in this document",
+        "search-more-matches-text": "more matches in this document",
+        "search-clear-button-title": "Clear",
+        "search-text-placeholder": "",
+        "search-detached-cancel-button-title": "Cancel",
+        "search-submit-button-title": "Submit",
+        "search-label": "Search"
+      }
+    }</script>
+  
+  
+  </head>
+
+<body>
+
+    <div id="quarto-search-results"></div>
+    <!-- content -->
+    <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+    <!-- sidebar -->
+    <!-- margin-sidebar -->
+        <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+            <nav id="TOC" role="doc-toc" class="toc-active">
+        <h2 id="toc-title">Contents</h2>
+       
+      <ul>
+      <li><a href="#designing-pluralistic-data-structures-for-mapping-military-equipment-in-policing" id="toc-designing-pluralistic-data-structures-for-mapping-military-equipment-in-policing" class="nav-link active" data-scroll-target="#designing-pluralistic-data-structures-for-mapping-military-equipment-in-policing">Designing Pluralistic Data Structures for Mapping Military Equipment in Policing</a></li>
+      </ul>
+    </nav>
+        </div>
+    <!-- main -->
+    <main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+  
+    <header id="title-block-header">
+      <p class="session">Summer 2024</p>
+      <h1 class="title display-7">People’s Data</h1>
+        <div class="project-description-container">
+        <p class="project-description">Whereas data used to be understood as structured, quantitative and categorical, developments in machine learning have made it possible to consider documents and collections of documents as data, providing context for the inferences drawn from those sources. But even with document or collection-level context, a fundamental principle behind critical data practices is still relevant: decisions about what becomes data and what does not empower some and disempower others. We add to this principle that making connections across datasets adds essential context for interpretation of data. Policy manuals from California law enforcement agencies are the basis of this case study, as they provide an ideal ground for using the affordances of AI to help us rethink the design of information retrieval systems. State legislation requires the policy manuals to be shared publicly to encourage “meaningful public input” on policy. And yet, the documents themselves are written to reduce the legal liability of law enforcement rather than enhance public understanding of law enforcement policies.</p>
+      </div>
+      
+    </header>
+    <!-- <div class="header-img-container">
+      <img src="data/imgs/placeholder.jpg" alt=" header image"></img>
+    </div>
+     -->
+    <div class="project-details-container">
+        <div class="project-members-container">
+        <div class="d-sm-none d-block">
+          <h4 class="anchored">Project Members</h4>
+        </div>
+        <div class="row d-sm-flex d-none">
+          <div class="col-sm">
+            <p>Project Member</p>
+          </div>
+          <div class="col-sm">
+            <p>Designation</p>
+          </div>
+          <div class="col-sm">
+            <p class="orcid">ORCID</p>
+          </div>
+        </div>
+            <div class="project-member row">
+          <div class="col-sm">
+            <p class="name">Nicole Coleman</p>
+          </div>
+          <div class="col-sm">
+            <p class="designation">Digital Research Architect, Stanford University Libraries</p>
+          </div>
+          <div class="col-sm"><a href="https://orcid.org/0000-0000-0000-0000" target="_blank" class="orcid">0000-0000-0000-0000</a></div>
+        </div>
+            <div class="project-member row">
+          <div class="col-sm">
+            <p class="name">Giovanna Ceserani</p>
+          </div>
+          <div class="col-sm">
+            <p class="designation">Professor of Classics, and CESTA Faculty Director</p>
+          </div>
+          <div class="col-sm"><a href="https://orcid.org/0000-0000-0000-0000" target="_blank" class="orcid">0000-0000-0000-0000</a></div>
+        </div>
+            <div class="project-member row">
+          <div class="col-sm">
+            <p class="name">Jiaju Liu</p>
+          </div>
+          <div class="col-sm">
+            <p class="designation">Intern - Summer, 2024</p>
+          </div>
+          <div class="col-sm"><a href="https://orcid.org/0000-0000-0000-0000" target="_blank" class="orcid">0000-0000-0000-0000</a></div>
+        </div>
+          </div>
+        
+    </div>  
+
+      
+  <section id="designing-pluralistic-data-structures-for-mapping-military-equipment-in-policing" class="level1">
+  <h1>Designing Pluralistic Data Structures for Mapping Military Equipment in Policing</h1>
+  <div class="article-author">
+  <p>John Doe</p>
+  </div>
+  <p>Over the summer, I worked with Jorge Gonzalez–another People’s Data intern–to build a knowledge graph of military equipment owned by California law enforcement agencies (LEAs). First, we aggregated data from LEA-owned equipment inventories gathered by previous interns into a central tabular database. Identifying and matching identical equipment across LEAs, a process called deduplication, is crucial for making a dataset capable of facilitating comparative analysis. Since the equipment’s name isn’t as important to civilians as its capabilities, we researched each piece of equipment’s capabilities and used this information for deduplication.</p>
+  <p>With the tabular dataset constructed, we moved our work onto WikiData. Embedding knowledge in the graph was tricky as we needed to identify existing paradigms around similar military equipment that already existed in WikiData. Falling to align our terms with existing knowledge would lead to a siloed dataset that cannot take advantage of the knowledge that exists around it. Therefore, the conventions that emerged from previous WikiData contributors informed our translation protocol. We split the equipment in our dataset into categories and based each category’s data schema on existing entries for similar pieces of knowledge already embedded into WikiData.</p>
+  <div class="quarto-figure quarto-figure-center">
+  <figure class="figure">
+  <p><img src="data/imgs/liu1.png" class="img-fluid figure-img"></p>
+  <figcaption>Figure 1. A database entry in WikiData for “miniature UAV.”</figcaption>
+  </figure>
+  </div>
+  <p>In mid July, I brought our work to a convening on police militarization held by one of our partner organizations, the American Friends Service Committee. My goals were to understand where we stood in larger demilitarization efforts and present our research to attendees and understand how our work could aid their organizing efforts. Many attendees had been trying to understand the ways that equipment manufacturers and LEAs crafted rhetoric to improve their counter-rhetoric. My presentation garnered a surprising amount of interest for this reason and I am currently collaborating with community organizers to explore these questions.</p>
+  <div class="quarto-figure quarto-figure-center">
+  <figure class="figure">
+  <p><img src="data/imgs/liu2.png" class="img-fluid figure-img"></p>
+  <figcaption>Figure 2. A visualization of some of our data within WikiData.</figcaption>
+  </figure>
+  </div>
+  <p>Finally, I made a knowledge graph-informed natural language query system. We incorporated natural language processing tools because traditional knowledge graph querying techniques such as SQL have rigid structures. This makes them struggle with questions that address uncertainty such as “Does an item like the Colt M4 Carbine that Santa Clara’s Police Department owns exist in the database? If not, what is the most similar item?” These queries also generally work with single pieces of information, making their outputs highly dependent on single sources.</p>
+  <div class="quarto-figure quarto-figure-center">
+  <figure class="figure">
+  <p><img src="data/imgs/liu3.png" class="img-fluid figure-img"></p>
+  <figcaption>Figure 3. A diagram of the language model-based query system.</figcaption>
+  </figure>
+  </div>
+  <p>Our system uses a language model to synthesize graph information. Traversing this network to reach conclusions means aggregating information from interlinked sources. We hope that this hybrid graph structure, grounded in library practices and inspired by humanities theory, provides a wider set of perspectives for applications of AI to document collections.</p>
+  
+  
+  </section>
+
+    </main> <!-- /main -->
+    <script id="quarto-html-after-body" type="application/javascript">
+    window.document.addEventListener("DOMContentLoaded", function (event) {
+      const toggleBodyColorMode = (bsSheetEl) => {
+        const mode = bsSheetEl.getAttribute("data-mode");
+        const bodyEl = window.document.querySelector("body");
+        if (mode === "dark") {
+          bodyEl.classList.add("quarto-dark");
+          bodyEl.classList.remove("quarto-light");
+        } else {
+          bodyEl.classList.add("quarto-light");
+          bodyEl.classList.remove("quarto-dark");
+        }
+      }
+      const toggleBodyColorPrimary = () => {
+        const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+        if (bsSheetEl) {
+          toggleBodyColorMode(bsSheetEl);
+        }
+      }
+      toggleBodyColorPrimary();  
+      const icon = "";
+      const anchorJS = new window.AnchorJS();
+      anchorJS.options = {
+        placement: 'right',
+        icon: icon
+      };
+      anchorJS.add('.anchored');
+      const isCodeAnnotation = (el) => {
+        for (const clz of el.classList) {
+          if (clz.startsWith('code-annotation-')) {                     
+            return true;
+          }
+        }
+        return false;
+      }
+      const onCopySuccess = function(e) {
+        // button target
+        const button = e.trigger;
+        // don't keep focus
+        button.blur();
+        // flash "checked"
+        button.classList.add('code-copy-button-checked');
+        var currentTitle = button.getAttribute("title");
+        button.setAttribute("title", "Copied!");
+        let tooltip;
+        if (window.bootstrap) {
+          button.setAttribute("data-bs-toggle", "tooltip");
+          button.setAttribute("data-bs-placement", "left");
+          button.setAttribute("data-bs-title", "Copied!");
+          tooltip = new bootstrap.Tooltip(button, 
+            { trigger: "manual", 
+              customClass: "code-copy-button-tooltip",
+              offset: [0, -8]});
+          tooltip.show();    
+        }
+        setTimeout(function() {
+          if (tooltip) {
+            tooltip.hide();
+            button.removeAttribute("data-bs-title");
+            button.removeAttribute("data-bs-toggle");
+            button.removeAttribute("data-bs-placement");
+          }
+          button.setAttribute("title", currentTitle);
+          button.classList.remove('code-copy-button-checked');
+        }, 1000);
+        // clear code selection
+        e.clearSelection();
+      }
+      const getTextToCopy = function(trigger) {
+          const codeEl = trigger.previousElementSibling.cloneNode(true);
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+      }
+      const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+        text: getTextToCopy
+      });
+      clipboard.on('success', onCopySuccess);
+      if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+        const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+          text: getTextToCopy,
+          container: window.document.getElementById('quarto-embedded-source-code-modal')
+        });
+        clipboardModal.on('success', onCopySuccess);
+      }
+        var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+        var mailtoRegex = new RegExp(/^mailto:/);
+          var filterRegex = new RegExp('/' + window.location.host + '/');
+        var isInternal = (href) => {
+            return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+        }
+        // Inspect non-navigation links and adorn them if external
+     	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+        for (var i=0; i<links.length; i++) {
+          const link = links[i];
+          if (!isInternal(link.href)) {
+            // undo the damage that might have been done by quarto-nav.js in the case of
+            // links that we want to consider external
+            if (link.dataset.originalHref !== undefined) {
+              link.href = link.dataset.originalHref;
+            }
+          }
+        }
+      function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+        const config = {
+          allowHTML: true,
+          maxWidth: 500,
+          delay: 100,
+          arrow: false,
+          appendTo: function(el) {
+              return el.parentElement;
+          },
+          interactive: true,
+          interactiveBorder: 10,
+          theme: 'quarto',
+          placement: 'bottom-start',
+        };
+        if (contentFn) {
+          config.content = contentFn;
+        }
+        if (onTriggerFn) {
+          config.onTrigger = onTriggerFn;
+        }
+        if (onUntriggerFn) {
+          config.onUntrigger = onUntriggerFn;
+        }
+        window.tippy(el, config); 
+      }
+      const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+      for (var i=0; i<noterefs.length; i++) {
+        const ref = noterefs[i];
+        tippyHover(ref, function() {
+          // use id or data attribute instead here
+          let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+          try { href = new URL(href).hash; } catch {}
+          const id = href.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note) {
+            return note.innerHTML;
+          } else {
+            return "";
+          }
+        });
+      }
+      const xrefs = window.document.querySelectorAll('a.quarto-xref');
+      const processXRef = (id, note) => {
+        // Strip column container classes
+        const stripColumnClz = (el) => {
+          el.classList.remove("page-full", "page-columns");
+          if (el.children) {
+            for (const child of el.children) {
+              stripColumnClz(child);
+            }
+          }
+        }
+        stripColumnClz(note)
+        if (id === null || id.startsWith('sec-')) {
+          // Special case sections, only their first couple elements
+          const container = document.createElement("div");
+          if (note.children && note.children.length > 2) {
+            container.appendChild(note.children[0].cloneNode(true));
+            for (let i = 1; i < note.children.length; i++) {
+              const child = note.children[i];
+              if (child.tagName === "P" && child.innerText === "") {
+                continue;
+              } else {
+                container.appendChild(child.cloneNode(true));
+                break;
+              }
+            }
+            if (window.Quarto?.typesetMath) {
+              window.Quarto.typesetMath(container);
+            }
+            return container.innerHTML
+          } else {
+            if (window.Quarto?.typesetMath) {
+              window.Quarto.typesetMath(note);
+            }
+            return note.innerHTML;
+          }
+        } else {
+          // Remove any anchor links if they are present
+          const anchorLink = note.querySelector('a.anchorjs-link');
+          if (anchorLink) {
+            anchorLink.remove();
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          if (note.classList.contains("callout")) {
+            return note.outerHTML;
+          } else {
+            return note.innerHTML;
+          }
+        }
+      }
+      for (var i=0; i<xrefs.length; i++) {
+        const xref = xrefs[i];
+        tippyHover(xref, undefined, function(instance) {
+          instance.disable();
+          let url = xref.getAttribute('href');
+          let hash = undefined; 
+          if (url.startsWith('#')) {
+            hash = url;
+          } else {
+            try { hash = new URL(url).hash; } catch {}
+          }
+          if (hash) {
+            const id = hash.replace(/^#\/?/, "");
+            const note = window.document.getElementById(id);
+            if (note !== null) {
+              try {
+                const html = processXRef(id, note.cloneNode(true));
+                instance.setContent(html);
+              } finally {
+                instance.enable();
+                instance.show();
+              }
+            } else {
+              // See if we can fetch this
+              fetch(url.split('#')[0])
+              .then(res => res.text())
+              .then(html => {
+                const parser = new DOMParser();
+                const htmlDoc = parser.parseFromString(html, "text/html");
+                const note = htmlDoc.getElementById(id);
+                if (note !== null) {
+                  const html = processXRef(id, note);
+                  instance.setContent(html);
+                } 
+              }).finally(() => {
+                instance.enable();
+                instance.show();
+              });
+            }
+          } else {
+            // See if we can fetch a full url (with no hash to target)
+            // This is a special case and we should probably do some content thinning / targeting
+            fetch(url)
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.querySelector('main.content');
+              if (note !== null) {
+                // This should only happen for chapter cross references
+                // (since there is no id in the URL)
+                // remove the first header
+                if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                  note.children[0].remove();
+                }
+                const html = processXRef(null, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        }, function(instance) {
+        });
+      }
+          let selectedAnnoteEl;
+          const selectorForAnnotation = ( cell, annotation) => {
+            let cellAttr = 'data-code-cell="' + cell + '"';
+            let lineAttr = 'data-code-annotation="' +  annotation + '"';
+            const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+            return selector;
+          }
+          const selectCodeLines = (annoteEl) => {
+            const doc = window.document;
+            const targetCell = annoteEl.getAttribute("data-target-cell");
+            const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+            const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+            const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+            const lineIds = lines.map((line) => {
+              return targetCell + "-" + line;
+            })
+            let top = null;
+            let height = null;
+            let parent = null;
+            if (lineIds.length > 0) {
+                //compute the position of the single el (top and bottom and make a div)
+                const el = window.document.getElementById(lineIds[0]);
+                top = el.offsetTop;
+                height = el.offsetHeight;
+                parent = el.parentElement.parentElement;
+              if (lineIds.length > 1) {
+                const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+                const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+                height = bottom - top;
+              }
+              if (top !== null && height !== null && parent !== null) {
+                // cook up a div (if necessary) and position it 
+                let div = window.document.getElementById("code-annotation-line-highlight");
+                if (div === null) {
+                  div = window.document.createElement("div");
+                  div.setAttribute("id", "code-annotation-line-highlight");
+                  div.style.position = 'absolute';
+                  parent.appendChild(div);
+                }
+                div.style.top = top - 2 + "px";
+                div.style.height = height + 4 + "px";
+                div.style.left = 0;
+                let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+                if (gutterDiv === null) {
+                  gutterDiv = window.document.createElement("div");
+                  gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                  gutterDiv.style.position = 'absolute';
+                  const codeCell = window.document.getElementById(targetCell);
+                  const gutter = codeCell.querySelector('.code-annotation-gutter');
+                  gutter.appendChild(gutterDiv);
+                }
+                gutterDiv.style.top = top - 2 + "px";
+                gutterDiv.style.height = height + 4 + "px";
+              }
+              selectedAnnoteEl = annoteEl;
+            }
+          };
+          const unselectCodeLines = () => {
+            const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+            elementsIds.forEach((elId) => {
+              const div = window.document.getElementById(elId);
+              if (div) {
+                div.remove();
+              }
+            });
+            selectedAnnoteEl = undefined;
+          };
+            // Handle positioning of the toggle
+        window.addEventListener(
+          "resize",
+          throttle(() => {
+            elRect = undefined;
+            if (selectedAnnoteEl) {
+              selectCodeLines(selectedAnnoteEl);
+            }
+          }, 10)
+        );
+        function throttle(fn, ms) {
+        let throttle = false;
+        let timer;
+          return (...args) => {
+            if(!throttle) { // first call gets through
+                fn.apply(this, args);
+                throttle = true;
+            } else { // all the others get throttled
+                if(timer) clearTimeout(timer); // cancel #2
+                timer = setTimeout(() => {
+                  fn.apply(this, args);
+                  timer = throttle = false;
+                }, ms);
+            }
+          };
+        }
+          // Attach click handler to the DT
+          const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+          for (const annoteDlNode of annoteDls) {
+            annoteDlNode.addEventListener('click', (event) => {
+              const clickedEl = event.target;
+              if (clickedEl !== selectedAnnoteEl) {
+                unselectCodeLines();
+                const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+                if (activeEl) {
+                  activeEl.classList.remove('code-annotation-active');
+                }
+                selectCodeLines(clickedEl);
+                clickedEl.classList.add('code-annotation-active');
+              } else {
+                // Unselect the line
+                unselectCodeLines();
+                clickedEl.classList.remove('code-annotation-active');
+              }
+            });
+          }
+      const findCites = (el) => {
+        const parentEl = el.parentElement;
+        if (parentEl) {
+          const cites = parentEl.dataset.cites;
+          if (cites) {
+            return {
+              el,
+              cites: cites.split(' ')
+            };
+          } else {
+            return findCites(el.parentElement)
+          }
+        } else {
+          return undefined;
+        }
+      };
+      var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+      for (var i=0; i<bibliorefs.length; i++) {
+        const ref = bibliorefs[i];
+        const citeInfo = findCites(ref);
+        if (citeInfo) {
+          tippyHover(citeInfo.el, function() {
+            var popup = window.document.createElement('div');
+            citeInfo.cites.forEach(function(cite) {
+              var citeDiv = window.document.createElement('div');
+              citeDiv.classList.add('hanging-indent');
+              citeDiv.classList.add('csl-entry');
+              var biblioDiv = window.document.getElementById('ref-' + cite);
+              if (biblioDiv) {
+                citeDiv.innerHTML = biblioDiv.innerHTML;
+              }
+              popup.appendChild(citeDiv);
+            });
+            return popup.innerHTML;
+          });
+        }
+      }
+    });
+    </script>
+    </div> <!-- /content -->
+  
+
+
+</body></html>
