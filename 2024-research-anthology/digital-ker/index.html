@@ -19,6 +19,11 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
+  .prj-lead {
+      font-weight: bold; /* Matches the size of the main title */
+      color: #734675; /* Plum purple color */ /* Adds some space between the two titles */
+      font-size: 1em;
+    }
   </style>
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/cesta-online/anthology-assets@latest/css/style.css">
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/cesta-online/anthology-assets@latest/css/style-quarto.css">
@@ -92,6 +97,7 @@
     <header id="title-block-header">
       <p class="session">Summer 2024</p>
       <h1 class="title display-7">Digital Ker</h1>
+      <p class="prj-lead">Project Lead: Elaine Treharne</p> <!-- New title added -->
         <div class="project-description-container">
         <p class="project-description">Stanford Text Technologies, with the support of Stanford’s Center for Spatial and Textual Analysis and the Vice Provost for Undergraduate Education, has been working since 2022 on producing an updated, and now digital, version of Neil Ripley Ker’s Catalogue of Manuscripts containing Anglo-Saxon, which was published by Clarendon Press in 1957. Originally intended for Oxford University Press, this is now an Open Access resource: manipulable and quantifiable data is augmented with additional material on Neil Ker himself, on his publications, his previously unpublished archival sources, and contemporary scholarship that has advanced Ker’s foundational work.</p>
       </div>
@@ -127,7 +133,7 @@
             <p class="name">Charlotte Cao</p>
           </div>
           <div class="col-sm">
-            <p class="designation">Intern - Summer, 2024</p>
+            <p class="designation">Undergraduate Researcher - Summer, 2024</p>
           </div>
         </div>
           </div>
@@ -144,7 +150,7 @@
   <div class="quarto-figure quarto-figure-center">
   <figure class="figure">
   <p><img src="data/imgs/ker-1.png" class="img-fluid figure-img"></p>
-  <figcaption>Fig. 1. The Digital Ker website, which was built using the Lanyon Jekyll theme on GitHub, also includes information on Ker’s other publications (“Ker’s Publications”) as well as links to contemporary pieces that have been written about Ker and his works (“Articles”).</figcaption>
+  <figcaption>Figure 1. The Digital Ker website, which was built using the Lanyon Jekyll theme on GitHub, also includes information on Ker’s other publications (“Ker’s Publications”) as well as links to contemporary pieces that have been written about Ker and his works (“Articles”).</figcaption>
   </figure>
   </div>
   <p>Though everyone involved in this project — Professor Treharne, previous project manager, Eren Yurek, and I — knew that we wanted to create a website, the question about which platform we would use was undecided. For the first few weeks, we considered GitHub, Omeka S, and WordPress, ultimately deciding on GitHub. We thought it best to use Jekyll — a static site generator; not only would this allow for the website to be sustainable, as static sites are less prone to glitching when there are new updates, but Jekyll also offers pre-designed themes that users can then leverage to build their own sites.</p>
@@ -155,15 +161,15 @@
   <div style="width:100%!;margin-top:4px!important;text-align:right!important;">
   <a class="flourish-credit" href="https://public.flourish.studio/visualisation/19140579/?utm_source=embed&amp;utm_campaign=visualisation/19140579" target="_top" style="text-decoration:none!important"><img alt="Made with Flourish" src="https://public.flourish.studio/resources/made_with_flourish.svg" style="width:105px!important;height:16px!important;border:none!important;margin:0!important;"> </a>
   </div>
-  <p>Fig. 2. In his Catalogue, Ker assigned each manuscript a specific genre. However, for the sake of readability, we were unable to graph every single genre and thus, we decided to graph the 7 most common genres as determined by Ker and our research team.</p>
+  <p>Figure 2. In his Catalogue, Ker assigned each manuscript a specific genre. However, for the sake of readability, we were unable to graph every single genre and thus, we decided to graph the 7 most common genres as determined by Ker and our research team.</p>
   <p>We have discovered a great deal about these surviving manuscripts: “glosses” are the most common genre; and while Ker found manuscripts written as early as 550AD, most that still exist appear to have been written in the early half of the eleventh century. As a research team, we were also particularly interested in delving deeper into Ker’s own perspectives on these manuscripts. As such, we decided to analyze the length of his manuscript entries, discovering that the median entry length was around 229 words and that most entries are between 121 words and 550; that being said, one entry (Item 331) contains over 4000 words</p>
   <iframe src="https://digital-ker.github.io/visualizations/Ker-Date-Dot-Plot-R.html" width="1000" height="600" frameborder="0" style="border:0" allowfullscreen="">
   </iframe>
-  <p>Fig. 3. Medieval dating conventions are not very specific as they do not point to a specific year but instead a date range. As a result, there is uncertainty in this graph; all of the dates included are approximations that have been made based on Ker’s best knowledge as well as our own.</p>
+  <p>Figure 3. Medieval dating conventions are not very specific as they do not point to a specific year but instead a date range. As a result, there is uncertainty in this graph; all of the dates included are approximations that have been made based on Ker’s best knowledge as well as our own.</p>
   <p>There were high levels of uncertainty when working with this data, as is expected when it comes to medieval texts. Of the 480 manuscripts, only 268 could be tied to a specific provenance, or city of origin. However, because we were still curious as to which cities were most integral to the production of pre-1200 manuscripts, I decided to use ArcGIS Online to map out the manuscript localizations that we did know. The size of the dot represents the amount of manuscripts that were found in that specific city (i.e.&nbsp;the larger the dot, the more manuscripts) while the transparency of the dot is associated with the average word count length of Ker’s description per manuscript (i.e.&nbsp;the larger the average word count length, the darker the dot). Ultimately, I found that the English cities of Canterbury, Worcester and Winchester produced the most manuscripts (with 43, 39 and 26, respectively).</p>
   <iframe src="https://stanford.maps.arcgis.com/apps/instant/portfolio/index.html?appid=3d3266eb07c5489d9513def5f0faf7e2&amp;hideTitle=true" width="700" height="700" frameborder="0" style="border:0" allowfullscreen="" title="">
   </iframe>
-  <p>Fig. 4. Once one clicks upon a city on the ArcGIS map, a pop-up appears which gives further information as to each of the manuscripts that were written there; the pop-up includes the item number, the shelfmark, the medieval provenance, the date, the title/genre, and the total word count of Ker’s description.</p>
+  <p>Figure 4. Once one clicks upon a city on the ArcGIS map, a pop-up appears which gives further information as to each of the manuscripts that were written there; the pop-up includes the item number, the shelfmark, the medieval provenance, the date, the title/genre, and the total word count of Ker’s description.</p>
   
   
   </section>
