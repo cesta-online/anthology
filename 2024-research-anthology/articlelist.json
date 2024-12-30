@@ -74,7 +74,7 @@
   {    
     "title": "OpenGulf",
     "description": "This is the anthology page for the OpenGulf Project, lead by Nora Barakat, and with Undergraduate Researchers, Germaine Soliman and Khosiyat Oripova.",
-    "img": "/anthology/assets/imgs/covers/open-gulf.png",
+    "img": "/anthology/assets/imgs/covers/gulf.png",
     "link": "open-gulf"
   },
    {    
@@ -110,7 +110,7 @@
   {    
     "title": "Syriac Verb Tutorial",
     "description": "This is the anthology page for the Syriac Verb Tutorial Project, lead by Michael Penn, and with Undergraduate Researcher, Erick Angelo Ramirez.",
-    "img": "/anthology/assets/imgs/covers/syriac-1.jpg",
+    "img": "/anthology/assets/imgs/covers/conjugationTree.png",
     "link": "syriac-verb-tutorial"
   },
   {
@@ -122,7 +122,7 @@
      {    
     "title": "Visualizing Ancient Aramiac Manuscripts",
     "description": "This is the anthology page for the Visualizing Ancient Aramiac Manuscripts Project, lead by Michael Penn, and with Undergraduate Researcher, Stephanie Cho.",
-    "img": "/anthology/assets/imgs/covers/vaa2.png",
+    "img": "/anthology/assets/imgs/covers/logo.png",
     "link": "visualizing-ancient-aramiac"
   },
   {
