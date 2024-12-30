@@ -5,17 +5,17 @@
     "img": "/anthology/assets/imgs/covers/ars-merc.jpg",
     "link": "ars-mercatoria"
   },
-    {
-    "title": "Considering Disabilities in Online Cultural Experiences",
-    "description": "This is the anthology page for the Considering Disabilities in Online Cultural Experiences Project, lead by Patricia Alessandrini and with Undergraduate Researcher, Chi Pham.",
-    "img": "/anthology/assets/imgs/covers/muse.jpeg",
-    "link": "considering-disabilities"
-  },
  {    
     "title": "Charting the Ottoman Empire",
     "description": "This is the anthology page for the Charting the Ottoman Empire, lead by Ali Yaycioglu and Fatma Oncel, and with Undergraduate Researcher, Jordan Rothkowitz.",
     "img": "/anthology/assets/imgs/covers/ottoman.jpg",
     "link": "charting-ottoman-empire"
+  },
+   {
+    "title": "Considering Disabilities in Online Cultural Experiences",
+    "description": "This is the anthology page for the Considering Disabilities in Online Cultural Experiences Project, lead by Patricia Alessandrini and with Undergraduate Researcher, Chi Pham.",
+    "img": "/anthology/assets/imgs/covers/muse.jpeg",
+    "link": "considering-disabilities"
   },
   {    
     "title": "Digital Ker",
