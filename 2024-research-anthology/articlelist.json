@@ -66,16 +66,22 @@
     "link": "modernist-archives-publishing"
   },
   {
-    "title": "Oceanic Imagineries",
+    "title": "Oceanic Imaginaries",
     "description": "This is the anthology page for the Oceanic Imaginaries Project, lead by Grant Parker and with Undergraduate Researcher, Sebastian Kane.",
     "img": "/anthology/assets/imgs/covers/ocean.png",
     "link": "oceanic-imagineries"
   },
   {    
-    "title": "Open Gulf",
+    "title": "OpenGulf",
     "description": "This is the anthology page for the OpenGulf Project, lead by Nora Barakat, and with Undergraduate Researchers, Germaine Soliman and Khosiyat Oripova.",
     "img": "/anthology/assets/imgs/covers/open-gulf.png",
     "link": "open-gulf"
+  },
+   {    
+    "title": "People's Data",
+    "description": "This is the anthology page for the People's Data project, lead by Giovanna Ceserani and Nicole Coleman, and with Undergraduate Researcher, Jiaju Liu.",
+    "img": "/anthology/assets/imgs/covers/open-gulf.png",
+    "link": "people-data"
   },
   {
     "title": "Quantifying Ancient Associations",
