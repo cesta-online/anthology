@@ -19,6 +19,11 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
+  .prj-lead {
+      font-weight: bold; /* Matches the size of the main title */
+      color: #734675; /* Plum purple color */ /* Adds some space between the two titles */
+      font-size: 1em;
+    }
   </style>
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/cesta-online/anthology-assets@latest/css/style.css">
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/cesta-online/anthology-assets@latest/css/style-quarto.css">
@@ -92,6 +97,7 @@
     <header id="title-block-header">
       <p class="session">Summer 2024</p>
       <h1 class="title display-7">Women and Mobility</h1>
+      <p class="prj-lead">Project Lead: Giovanna Ceserani</p> <!-- New title added -->
         <div class="project-description-container">
         <p class="project-description">What did travel to Italy look like for eighteenth-century women? The Grand Tour of Italy–a formative institution of modernity, contributing to a massive reimagining of politics and the arts, of the market for culture, of ideas about education and leisure–attracted thousands of Europeans in the age of Enlightenment. The Grand Tour Project set out to study these travelers computationally and has created an interactive database about the journeys and lives of 6,007 of them–now available in open-access at <em>A World Made by Travel: the Digital Grand Tour</em>. This work has also introduced more than a thousand of new figures, moving the focus well beyond the most elite, and mostly male and well-known, travelers. With “Women and Mobility,” the project moves on to research the 955 women in the database. The goal is to find what is known about these women travelers, dramatically increasing our understanding of the journeys of British women to Italy in the age of the Grand Tour, until now a much understudied phenomenon.</p>
       </div>
@@ -119,7 +125,7 @@
             <p class="name">Giovanna Ceserani</p>
           </div>
           <div class="col-sm">
-            <p class="designation">Professor of Classics</p>
+            <p class="designation">Professor of Classics, and CESTA Faculty Director</p>
           </div>
         </div>
             <div class="project-member row">
@@ -127,7 +133,7 @@
             <p class="name">Myan Ngo</p>
           </div>
           <div class="col-sm">
-            <p class="designation">Intern - Summer, 2024</p>
+            <p class="designation">Undergraduate Researcher - Summer, 2024</p>
           </div>
         </div>
           </div>
@@ -145,13 +151,13 @@
   <div class="quarto-figure quarto-figure-center">
   <figure class="figure">
   <p><img src="data/imgs/female_plot_wout_shape.png" class="img-fluid figure-img"></p>
-  <figcaption>Fig. 1. This graph shows the percentage of present data throughout the 18th cent. for women. The most present data was for parent, death date, and death place information.</figcaption>
+  <figcaption>Figure 1. This graph shows the percentage of present data throughout the 18th cent. for women. The most present data was for parent, death date, and death place information.</figcaption>
   </figure>
   </div>
   <div class="quarto-figure quarto-figure-center">
   <figure class="figure">
   <p><img src="data/imgs/female_plot_w_shapes.png" class="img-fluid figure-img"></p>
-  <figcaption>Fig. 2. This graph shows again the percentage of present data for women, but the triangle represents previously existing entries, while the circle those created by the project for newly uncovered travelers. We can see that less is known for the previously existing ones.</figcaption>
+  <figcaption>Figure 2. This graph shows again the percentage of present data for women, but the triangle represents previously existing entries, while the circle those created by the project for newly uncovered travelers. We can see that less is known for the previously existing ones.</figcaption>
   </figure>
   </div>
   <p>Afterward, I focused on creating interactive network graphs using Flourish to showcase the relationships among these women. For the sake of readability and comparison, I created a graph for non-related co-travelers, related travelers, and other relationships (unknown and unique). Finally, I went back to R to create the same visualizations for male travelers to attempt to answer our initial question via comparative analysis.</p>
@@ -164,13 +170,13 @@
   <div class="quarto-figure quarto-figure-center">
   <figure class="figure">
   <p><img src="data/imgs/male_plot_wout_shape.png" class="img-fluid figure-img"></p>
-  <figcaption>Fig. 3. This graph shows the percentage of present data throughout the 18th cent. for men. The most present data was parent, death date, and birth date.</figcaption>
+  <figcaption>Figure 3. This graph shows the percentage of present data throughout the 18th cent. for men. The most present data was parent, death date, and birth date.</figcaption>
   </figure>
   </div>
   <div class="quarto-figure quarto-figure-center">
   <figure class="figure">
   <p><img src="data/imgs/male_plot_wout_shape.png" class="img-fluid figure-img"></p>
-  <figcaption>Fig. 4. This graph shows again the percentage of present data for men, but the triangle represents previously existing entries, while the circle those created by the project for newly uncovered travelers. We know significantly more about parents for newly created entries.</figcaption>
+  <figcaption>Figure 4. This graph shows again the percentage of present data for men, but the triangle represents previously existing entries, while the circle those created by the project for newly uncovered travelers. We know significantly more about parents for newly created entries.</figcaption>
   </figure>
   </div>
   
