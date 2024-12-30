@@ -19,6 +19,11 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
+  .prj-lead {
+      font-weight: bold; /* Matches the size of the main title */
+      color: #734675; /* Plum purple color */ /* Adds some space between the two titles */
+      font-size: 1em;
+    }
   </style>
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/cesta-online/anthology-assets@latest/css/style.css">
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/cesta-online/anthology-assets@latest/css/style-quarto.css">
@@ -92,6 +97,7 @@
     <header id="title-block-header">
       <p class="session">Summer 2024</p>
       <h1 class="title display-7">People’s Data</h1>
+      <p class="prj-lead">Project Lead: Giovanna Ceserani and Nicole Coleman</p> <!-- New title added -->
         <div class="project-description-container">
         <p class="project-description">Whereas data used to be understood as structured, quantitative and categorical, developments in machine learning have made it possible to consider documents and collections of documents as data, providing context for the inferences drawn from those sources. But even with document or collection-level context, a fundamental principle behind critical data practices is still relevant: decisions about what becomes data and what does not empower some and disempower others. We add to this principle that making connections across datasets adds essential context for interpretation of data. Policy manuals from California law enforcement agencies are the basis of this case study, as they provide an ideal ground for using the affordances of AI to help us rethink the design of information retrieval systems. State legislation requires the policy manuals to be shared publicly to encourage “meaningful public input” on policy. And yet, the documents themselves are written to reduce the legal liability of law enforcement rather than enhance public understanding of law enforcement policies.</p>
       </div>
@@ -113,9 +119,6 @@
           <div class="col-sm">
             <p>Designation</p>
           </div>
-          <div class="col-sm">
-            <p class="orcid">ORCID</p>
-          </div>
         </div>
             <div class="project-member row">
           <div class="col-sm">
@@ -124,7 +127,6 @@
           <div class="col-sm">
             <p class="designation">Digital Research Architect, Stanford University Libraries</p>
           </div>
-          <div class="col-sm"><a href="https://orcid.org/0000-0000-0000-0000" target="_blank" class="orcid">0000-0000-0000-0000</a></div>
         </div>
             <div class="project-member row">
           <div class="col-sm">
@@ -133,16 +135,14 @@
           <div class="col-sm">
             <p class="designation">Professor of Classics, and CESTA Faculty Director</p>
           </div>
-          <div class="col-sm"><a href="https://orcid.org/0000-0000-0000-0000" target="_blank" class="orcid">0000-0000-0000-0000</a></div>
         </div>
             <div class="project-member row">
           <div class="col-sm">
             <p class="name">Jiaju Liu</p>
           </div>
           <div class="col-sm">
-            <p class="designation">Intern - Summer, 2024</p>
+            <p class="designation">Undergraduate Researcher - Summer, 2024</p>
           </div>
-          <div class="col-sm"><a href="https://orcid.org/0000-0000-0000-0000" target="_blank" class="orcid">0000-0000-0000-0000</a></div>
         </div>
           </div>
         
@@ -152,7 +152,7 @@
   <section id="designing-pluralistic-data-structures-for-mapping-military-equipment-in-policing" class="level1">
   <h1>Designing Pluralistic Data Structures for Mapping Military Equipment in Policing</h1>
   <div class="article-author">
-  <p>John Doe</p>
+  <p>Jiaju Liu</p>
   </div>
   <p>Over the summer, I worked with Jorge Gonzalez–another People’s Data intern–to build a knowledge graph of military equipment owned by California law enforcement agencies (LEAs). First, we aggregated data from LEA-owned equipment inventories gathered by previous interns into a central tabular database. Identifying and matching identical equipment across LEAs, a process called deduplication, is crucial for making a dataset capable of facilitating comparative analysis. Since the equipment’s name isn’t as important to civilians as its capabilities, we researched each piece of equipment’s capabilities and used this information for deduplication.</p>
   <p>With the tabular dataset constructed, we moved our work onto WikiData. Embedding knowledge in the graph was tricky as we needed to identify existing paradigms around similar military equipment that already existed in WikiData. Falling to align our terms with existing knowledge would lead to a siloed dataset that cannot take advantage of the knowledge that exists around it. Therefore, the conventions that emerged from previous WikiData contributors informed our translation protocol. We split the equipment in our dataset into categories and based each category’s data schema on existing entries for similar pieces of knowledge already embedded into WikiData.</p>
