@@ -81,7 +81,7 @@ body {
 }
 
 .list-item-container:hover {
-  background-color: hsla(310, 100%, 25%, 0.5);
+  background-color: hsla(260, 100%, 60%, 0.4);
   padding-left: 20px;
 }
 
